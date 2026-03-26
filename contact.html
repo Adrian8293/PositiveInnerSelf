@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Positive Inner Self, LLC</title>
+  <meta name="description" content="Contact Positive Inner Self, LLC to schedule an appointment or ask questions about our mental health and wellness services." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<script src="js/nav.js"></script>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <span class="section-eyebrow">Reach Out</span>
+  <h1>Contact Us</h1>
+  <p>Our office is here for you. We also offer sessions via a secure Telehealth platform — wherever you are.</p>
+</div>
+
+<!-- CONTACT SECTION -->
+<section>
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- LEFT: CONTACT INFO -->
+      <div class="contact-info">
+        <div class="contact-block">
+          <h4>Our Office</h4>
+          <!-- Update with your actual address -->
+          <p>
+            [Your Street Address]<br/>
+            [Suite / Unit]<br/>
+            [City, State, ZIP]
+          </p>
+        </div>
+        <div class="contact-block">
+          <h4>Phone</h4>
+          <p><a href="tel:5034613910">(503) 461-3910</a></p>
+        </div>
+        <div class="contact-block">
+          <h4>Email</h4>
+          <p><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></p>
+        </div>
+        <div class="contact-block">
+          <h4>Hours</h4>
+          <p>
+            Monday – Friday: 9am – 6pm<br/>
+            Saturday: By appointment<br/>
+            Sunday: Closed
+          </p>
+        </div>
+        <div class="contact-block">
+          <!-- MAP PLACEHOLDER: embed Google Maps iframe here -->
+          <div style="background:var(--clr-warm);border-radius:12px;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem;color:var(--clr-sage-dark);border:1px solid var(--clr-border);">
+            <svg width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span style="font-size:0.8rem;opacity:0.7;font-style:italic;">Replace with Google Maps embed</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: CONTACT FORM -->
+      <div class="form-section">
+        <h2 style="font-family:var(--font-display);font-size:1.8rem;font-weight:300;color:var(--clr-sage-dark);margin-bottom:0.5rem;">Send Us a Message</h2>
+        <p style="color:var(--clr-muted);font-size:0.9rem;margin-bottom:2rem;">Fields marked with <span style="color:var(--clr-sage);">*</span> are required.</p>
+
+        <form class="form-grid" onsubmit="handleContact(event)">
+
+          <!-- Name -->
+          <div class="form-grid form-grid-2">
+            <div class="form-group">
+              <label>First Name <span class="req">*</span></label>
+              <input type="text" placeholder="First name" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name <span class="req">*</span></label>
+              <input type="text" placeholder="Last name" required />
+            </div>
+          </div>
+
+          <!-- Contact details -->
+          <div class="form-grid form-grid-2">
+            <div class="form-group">
+              <label>Email <span class="req">*</span></label>
+              <input type="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="(555) 000-0000" />
+            </div>
+          </div>
+
+          <!-- Date of Birth -->
+          <div class="form-group">
+            <label>Date of Birth <span class="req">*</span></label>
+            <input type="date" required />
+          </div>
+
+          <!-- Voicemail & Calls -->
+          <div class="form-grid form-grid-2">
+            <div class="form-group">
+              <label>Can We Leave a Voicemail?</label>
+              <div class="radio-group">
+                <label class="radio-label"><input type="radio" name="voicemail" value="yes"/> Yes</label>
+                <label class="radio-label"><input type="radio" name="voicemail" value="no"/> No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Permission to Call You?</label>
+              <div class="radio-group">
+                <label class="radio-label"><input type="radio" name="call" value="yes"/> Yes</label>
+                <label class="radio-label"><input type="radio" name="call" value="no"/> No</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email permission -->
+          <div class="form-group">
+            <label>Permission to Email You?</label>
+            <div class="radio-group">
+              <label class="radio-label"><input type="radio" name="email_perm" value="yes"/> Yes</label>
+              <label class="radio-label"><input type="radio" name="email_perm" value="no"/> No</label>
+            </div>
+          </div>
+
+          <!-- Insurance -->
+          <div class="form-group">
+            <label>Will You Use Insurance for Sessions?</label>
+            <div class="radio-group">
+              <label class="radio-label"><input type="radio" name="insurance" value="yes"/> Yes</label>
+              <label class="radio-label"><input type="radio" name="insurance" value="no"/> No</label>
+              <label class="radio-label"><input type="radio" name="insurance" value="unsure"/> Not Sure</label>
+            </div>
+          </div>
+
+          <!-- Preferred contact method -->
+          <div class="form-group">
+            <label>How Do You Prefer We Get in Touch?</label>
+            <div class="radio-group">
+              <label class="radio-label"><input type="radio" name="contact_pref" value="email_only"/> Email Only</label>
+              <label class="radio-label"><input type="radio" name="contact_pref" value="phone"/> Phone Call</label>
+              <label class="radio-label"><input type="radio" name="contact_pref" value="text"/> Text</label>
+              <label class="radio-label"><input type="radio" name="contact_pref" value="any"/> Any of the Above</label>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="form-group">
+            <label>Would You Like to Receive Our Newsletter?</label>
+            <div class="radio-group">
+              <label class="radio-label"><input type="radio" name="newsletter" value="yes"/> Yes</label>
+              <label class="radio-label"><input type="radio" name="newsletter" value="no"/> No</label>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="form-group">
+            <label>Message <span class="req">*</span></label>
+            <textarea placeholder="What brings you to Positive Inner Self? Is there a particular day/time you'd like us to reach out to you?" required></textarea>
+          </div>
+
+          <!-- How did you hear -->
+          <div class="form-group">
+            <label>How Did You Hear About Us?</label>
+            <select>
+              <option value="">— Please select —</option>
+              <option>Internet Search</option>
+              <option>Facebook</option>
+              <option>Instagram</option>
+              <option>Word of Mouth</option>
+              <option>Portland Therapy Center</option>
+              <option>Therapy Den</option>
+              <option>Online Therapy Directory</option>
+              <option>Referral from Provider</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <!-- Submit -->
+          <div style="margin-top:0.5rem;">
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:1rem 2rem;">
+              Send Message
+            </button>
+          </div>
+
+          <p style="font-size:0.78rem;color:var(--clr-muted);line-height:1.6;margin-top:0.5rem;">
+            By submitting this form, you consent to being contacted by our team regarding your inquiry. We respect your privacy and will never share your information.
+          </p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<div class="newsletter-strip">
+  <div class="container">
+    <h2>Join Our Newsletter</h2>
+    <p>Your Mind Matters! Get the latest mental health tips and wellness advice straight to your inbox.</p>
+    <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+      <input type="text" placeholder="Your name" />
+      <input type="email" placeholder="Your email address" required />
+      <button type="submit" class="btn btn-white">Subscribe</button>
+    </form>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo-text">Positive Inner Self, LLC</div>
+      <p>Compassionate mental health and holistic wellness services — meeting you where you are.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html#counseling">Counseling</a></li>
+        <li><a href="services.html#groups">Groups &amp; Workshops</a></li>
+        <li><a href="services.html#supervision">Supervision</a></li>
+        <li><a href="services.html#massage">Massage Therapy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="providers.html">Meet Our Providers</a></li>
+        <li><a href="fees.html">Fees &amp; Policies</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:5034613910">(503) 461-3910</a></li>
+        <li><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Positive Inner Self, LLC. All Rights Reserved.</span>
+  </div>
+</footer>
+
+<script>
+function handleContact(e) {
+  e.preventDefault();
+  alert('Thank you for reaching out! We\'ll be in touch within 1–2 business days.');
+  e.target.reset();
+}
+function handleNewsletter(e) {
+  e.preventDefault();
+  alert('Thank you for subscribing!');
+  e.target.reset();
+}
+</script>
+</body>
+</html>
