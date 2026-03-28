@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "adrienne-buhacoff",
+    "name": "Adrienne Buhacoff",
+    "credential": "LCSW",
+    "photo_local": "images/providers/adrienne-buhacoff.jpg"
+  },
+  {
+    "slug": "jessica-padnick",
+    "name": "Jessica Padnick",
+    "credential": "LCSW",
+    "photo_local": "images/providers/jessica-padnick.jpg"
+  },
+  {
+    "slug": "mark-saren",
+    "name": "Mark Saren",
+    "credential": "LPC",
+    "photo_local": "images/providers/mark-saren.jpg"
+  },
+  {
+    "slug": "erin-shimp",
+    "name": "Erin Shimp",
+    "credential": "LMT",
+    "photo_local": "images/providers/erin-shimp.jpg"
+  },
+  {
+    "slug": "vileka-fisher",
+    "name": "Vileka Fisher",
+    "credential": "ND",
+    "photo_local": "images/providers/vileka-fisher.jpg"
+  },
+  {
+    "slug": "katierose-mcmahon",
+    "name": "Katierose McMahon",
+    "credential": "QMHP",
+    "photo_local": "images/providers/katierose-mcmahon.jpg"
+  },
+  {
+    "slug": "adam-bartell",
+    "name": "Adam Bartell",
+    "credential": "LCSW",
+    "photo_local": "images/providers/adam-bartell.jpg"
+  },
+  {
+    "slug": "david-haddow",
+    "name": "David Haddow",
+    "credential": "PCA",
+    "photo_local": "images/providers/david-haddow.jpg"
+  },
+  {
+    "slug": "becca-saunders",
+    "name": "Becca Saunders",
+    "credential": "LCSW",
+    "photo_local": "images/providers/becca-saunders.jpg"
+  },
+  {
+    "slug": "andrew-schwager",
+    "name": "Andrew Schwager",
+    "credential": "LCSW",
+    "photo_local": "images/providers/andrew-schwager.jpg"
+  },
+  {
+    "slug": "emilee-harris",
+    "name": "Emilee Harris",
+    "credential": "LCSW",
+    "photo_local": "images/providers/emilee-harris.jpg"
+  },
+  {
+    "slug": "mckenzie-haenke",
+    "name": "McKenzie Haenke",
+    "credential": "LCSW",
+    "photo_local": "images/providers/mckenzie-haenke.jpg"
+  },
+  {
+    "slug": "michelle-ficalora",
+    "name": "Michelle Ficalora",
+    "credential": "LCSW",
+    "photo_local": "images/providers/michelle-ficalora.jpg"
+  },
+  {
+    "slug": "phil-freneau",
+    "name": "Phil Freneau",
+    "credential": "LPC",
+    "photo_local": "images/providers/phil-freneau.jpg"
+  },
+  {
+    "slug": "chloe-frisella-kunst",
+    "name": "Chlo\u00eb Frisella Kunst",
+    "credential": "PCA",
+    "photo_local": "images/providers/chloe-frisella-kunst.jpg"
+  },
+  {
+    "slug": "chris-byers",
+    "name": "Chris Byers",
+    "credential": "CSWA",
+    "photo_local": "images/providers/chris-byers.jpg"
+  },
+  {
+    "slug": "lea-lawrence",
+    "name": "Lea Lawrence",
+    "credential": "PCA",
+    "photo_local": "images/providers/lea-lawrence.jpg"
+  },
+  {
+    "slug": "kayla-beharrie",
+    "name": "Kayla Beharrie",
+    "credential": "PCA",
+    "photo_local": "images/providers/kayla-beharrie.jpg"
+  },
+  {
+    "slug": "yuanchuin-guo-teng",
+    "name": "Yuanchuin Guo-Teng",
+    "credential": "LPC",
+    "photo_local": "images/providers/yuanchuin-guo-teng.jpg"
+  },
+  {
+    "slug": "andrew-hauck",
+    "name": "Andrew Hauck",
+    "credential": "PCA",
+    "photo_local": "images/providers/andrew-hauck.jpg"
+  },
+  {
+    "slug": "juli-abraham",
+    "name": "Juli Abraham",
+    "credential": "LMT",
+    "photo_local": "images/providers/juli-abraham.jpg"
+  },
+  {
+    "slug": "jego-alfonso",
+    "name": "Jego Alfonso",
+    "credential": "LMT",
+    "photo_local": "images/providers/jego-alfonso.jpg"
+  }
+]
