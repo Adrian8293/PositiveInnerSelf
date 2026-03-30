@@ -3,1119 +3,553 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- SEO Meta Tags -->
-  <title>Meet Our Providers | Positive Inner Self, LLC – Beaverton, OR Therapists & Counselors</title>
-  <meta name="description" content="Meet the compassionate mental health providers at Positive Inner Self, LLC in Beaverton, Oregon. Licensed therapists, counselors, massage therapists, and naturopathic doctors ready to support your wellness journey." />
-  <meta name="keywords" content="therapist Beaverton OR, mental health counselor Portland, LCSW Oregon, EMDR therapy, massage therapist Beaverton, telehealth counseling Oregon, LGBTQIA+ affirming therapist" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://adrian8293.github.io/PositiveInnerSelf/providers.html" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Meet Our Providers | Positive Inner Self, LLC" />
-  <meta property="og:description" content="Compassionate therapists, counselors, and wellness providers serving Beaverton, OR and via telehealth across Oregon." />
-  <meta property="og:url" content="https://adrian8293.github.io/PositiveInnerSelf/providers.html" />
-  <meta property="og:image" content="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" />
-
-  <!-- Schema.org Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalOrganization",
-    "name": "Positive Inner Self, LLC",
-    "url": "https://positiveinnerself.com",
-    "logo": "https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png",
-    "telephone": "(503) 468-4791",
-    "email": "intake@positiveinnerself.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "6700 SW 105th Ave Suite 215",
-      "addressLocality": "Beaverton",
-      "addressRegion": "OR",
-      "postalCode": "97008"
-    },
-    "medicalSpecialty": ["MentalHealth", "Counseling", "MassageTherapy"],
-    "hasMap": "https://maps.google.com/?q=6700+SW+105th+Ave+Suite+215+Beaverton+OR+97008"
-  }
-  </script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-
+  <title>Meet Our Providers | Positive Inner Self, LLC — Beaverton, OR Therapists &amp; Counselors</title>
+  <meta name="description" content="Meet our 22+ licensed therapists, naturopathic doctor, and massage therapists at Positive Inner Self in Beaverton, OR. LGBTQIA+ affirming. Free 15-min consultations available." />
+  <link rel="canonical" href="https://positiveinnerself.com/meet-our-providers" />
+  <link rel="stylesheet" href="style.css" />
   <style>
-    :root {
-      --sage: #7a9e7e;
-      --sage-light: #a8c5ab;
-      --sage-dark: #4d7152;
-      --warm-cream: #f7f3ee;
-      --warm-tan: #e8dfd3;
-      --warm-brown: #8b6f5e;
-      --deep-forest: #2d4a30;
-      --text-dark: #2a2a2a;
-      --text-mid: #5a5a5a;
-      --text-light: #888;
-      --white: #ffffff;
-      --card-shadow: 0 4px 24px rgba(45,74,48,0.09);
-      --radius: 16px;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--warm-cream);
-      color: var(--text-dark);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    /* ── NAV ── */
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(247,243,238,0.96);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(122,158,126,0.2);
-      padding: 0 2rem;
-    }
-    .nav-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 70px;
-    }
-    .nav-logo img {
-      height: 48px;
-      width: auto;
-    }
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-      align-items: center;
-    }
-    .nav-links a {
-      text-decoration: none;
-      color: var(--text-mid);
-      font-size: 0.88rem;
-      font-weight: 500;
-      letter-spacing: 0.02em;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover, .nav-links a.active { color: var(--sage-dark); }
-    .nav-cta {
-      background: var(--sage);
-      color: var(--white) !important;
-      padding: 0.5rem 1.25rem;
-      border-radius: 50px;
-      font-weight: 500 !important;
-      transition: background 0.2s !important;
-    }
-    .nav-cta:hover { background: var(--sage-dark) !important; }
-
-    /* ── HERO ── */
-    .hero {
-      background: linear-gradient(135deg, var(--deep-forest) 0%, var(--sage-dark) 50%, var(--sage) 100%);
-      color: var(--white);
-      padding: 5rem 2rem 4rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-      pointer-events: none;
-    }
-    .hero-content { position: relative; max-width: 700px; margin: 0 auto; }
-    .hero-eyebrow {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.8rem;
-      font-weight: 500;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--sage-light);
-      margin-bottom: 1rem;
-    }
-    .hero h1 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2.8rem, 6vw, 4.2rem);
-      font-weight: 300;
-      line-height: 1.1;
-      margin-bottom: 1.25rem;
-    }
-    .hero h1 em { font-style: italic; color: var(--sage-light); }
-    .hero p {
-      font-size: 1.05rem;
-      color: rgba(255,255,255,0.82);
-      max-width: 560px;
-      margin: 0 auto 2rem;
-    }
-    .hero-badge-row {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 1rem;
-    }
-    .hero-badge {
-      background: rgba(255,255,255,0.12);
-      border: 1px solid rgba(255,255,255,0.2);
-      padding: 0.4rem 1rem;
-      border-radius: 50px;
-      font-size: 0.8rem;
-      letter-spacing: 0.04em;
-    }
-
-    /* ── FILTER BAR ── */
-    .filter-section {
-      background: var(--white);
-      border-bottom: 1px solid var(--warm-tan);
-      padding: 1.25rem 2rem;
-      position: sticky;
-      top: 70px;
-      z-index: 90;
-    }
-    .filter-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    .filter-label {
-      font-size: 0.78rem;
-      font-weight: 500;
-      color: var(--text-light);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-right: 0.25rem;
-    }
-    .filter-btn {
-      background: transparent;
-      border: 1.5px solid var(--warm-tan);
-      color: var(--text-mid);
-      padding: 0.35rem 0.9rem;
-      border-radius: 50px;
-      font-size: 0.82rem;
-      font-family: 'DM Sans', sans-serif;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .filter-btn:hover { border-color: var(--sage); color: var(--sage-dark); }
-    .filter-btn.active {
-      background: var(--sage);
-      border-color: var(--sage);
-      color: var(--white);
-    }
-
-    /* ── PROVIDERS GRID ── */
-    .providers-section {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 3rem 2rem 5rem;
-    }
-    .section-label {
-      font-size: 0.75rem;
-      font-weight: 500;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--sage);
-      margin-bottom: 0.5rem;
-    }
-    .section-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.8rem, 4vw, 2.6rem);
-      font-weight: 400;
-      color: var(--deep-forest);
-      margin-bottom: 0.5rem;
-    }
-    .section-intro {
-      color: var(--text-mid);
-      max-width: 620px;
-      margin-bottom: 2.5rem;
-      font-size: 0.97rem;
-    }
-
-    .providers-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .provider-card {
-      background: var(--white);
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--card-shadow);
-      transition: transform 0.25s, box-shadow 0.25s;
-      cursor: pointer;
-      border: 1px solid rgba(122,158,126,0.1);
-    }
-    .provider-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(45,74,48,0.14);
-    }
-    .provider-card.hidden { display: none; }
-
-    .provider-photo {
-      width: 100%;
-      aspect-ratio: 4/3;
-      object-fit: cover;
-      object-position: top center;
-      background: var(--warm-tan);
-    }
-    .provider-photo-placeholder {
-      width: 100%;
-      aspect-ratio: 4/3;
-      background: linear-gradient(135deg, var(--warm-tan) 0%, var(--sage-light) 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3.5rem;
-      color: var(--white);
-    }
-
-    .provider-body { padding: 1.4rem 1.5rem 1.5rem; }
-    .provider-tags {
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-      margin-bottom: 0.75rem;
-    }
-    .tag {
-      font-size: 0.7rem;
-      font-weight: 500;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 0.2rem 0.6rem;
-      border-radius: 50px;
-    }
-    .tag-therapy { background: #e8f2e9; color: var(--sage-dark); }
-    .tag-massage { background: #fef3e8; color: #b87c3a; }
-    .tag-naturopathic { background: #edf2fb; color: #3a5fb8; }
-    .tag-supervision { background: #f5e8fb; color: #8b3ab8; }
-    .tag-director { background: var(--deep-forest); color: var(--white); }
-
-    .provider-name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.45rem;
-      font-weight: 600;
-      color: var(--deep-forest);
-      line-height: 1.2;
-      margin-bottom: 0.2rem;
-    }
-    .provider-title {
-      font-size: 0.82rem;
-      color: var(--sage-dark);
-      font-weight: 500;
-      margin-bottom: 0.1rem;
-    }
-    .provider-license {
-      font-size: 0.76rem;
-      color: var(--text-light);
-      margin-bottom: 0.9rem;
-    }
-    .provider-bio {
-      font-size: 0.88rem;
-      color: var(--text-mid);
-      line-height: 1.65;
-      margin-bottom: 1.1rem;
-    }
-    .provider-specialties {
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-      margin-bottom: 1rem;
-    }
-    .specialty-chip {
-      font-size: 0.72rem;
-      background: var(--warm-cream);
-      color: var(--text-mid);
-      padding: 0.2rem 0.55rem;
-      border-radius: 4px;
-      border: 1px solid var(--warm-tan);
-    }
-    .provider-card-footer {
-      display: flex;
-      gap: 0.6rem;
-      align-items: center;
-    }
-    .btn-consult {
-      flex: 1;
-      text-align: center;
-      background: var(--sage);
-      color: var(--white);
-      text-decoration: none;
-      padding: 0.55rem 1rem;
-      border-radius: 8px;
-      font-size: 0.83rem;
-      font-weight: 500;
-      transition: background 0.2s;
-    }
-    .btn-consult:hover { background: var(--sage-dark); }
-    .btn-profile {
-      text-decoration: none;
-      color: var(--sage-dark);
-      font-size: 0.83rem;
-      font-weight: 500;
-      padding: 0.55rem 0.8rem;
-      border: 1.5px solid var(--sage-light);
-      border-radius: 8px;
-      transition: all 0.2s;
-      white-space: nowrap;
-    }
-    .btn-profile:hover { background: var(--sage-light); color: var(--deep-forest); }
-
-    /* ── CTA BANNER ── */
-    .cta-banner {
-      background: linear-gradient(135deg, var(--deep-forest), var(--sage-dark));
-      color: var(--white);
-      padding: 4rem 2rem;
-      text-align: center;
-      margin-top: 1rem;
-    }
-    .cta-banner h2 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.8rem, 4vw, 2.8rem);
-      font-weight: 300;
-      margin-bottom: 0.75rem;
-    }
-    .cta-banner p {
-      color: rgba(255,255,255,0.78);
-      margin-bottom: 2rem;
-      font-size: 1rem;
-      max-width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .cta-btn-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-    .cta-btn-primary {
-      background: var(--white);
-      color: var(--deep-forest);
-      text-decoration: none;
-      padding: 0.85rem 2rem;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.92rem;
-      transition: background 0.2s;
-    }
-    .cta-btn-primary:hover { background: var(--warm-cream); }
-    .cta-btn-secondary {
-      background: transparent;
-      color: var(--white);
-      text-decoration: none;
-      padding: 0.85rem 2rem;
-      border-radius: 8px;
-      font-weight: 500;
-      font-size: 0.92rem;
-      border: 1.5px solid rgba(255,255,255,0.4);
-      transition: border-color 0.2s;
-    }
-    .cta-btn-secondary:hover { border-color: rgba(255,255,255,0.8); }
-
-    /* ── FOOTER ── */
-    footer {
-      background: #1e2e1f;
-      color: rgba(255,255,255,0.72);
-      padding: 3rem 2rem 2rem;
-    }
-    .footer-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1.2fr;
-      gap: 2.5rem;
-    }
-    .footer-brand img { height: 44px; margin-bottom: 0.75rem; filter: brightness(0) invert(1) opacity(0.9); }
-    .footer-brand p { font-size: 0.85rem; line-height: 1.7; }
-    footer h4 {
-      color: var(--white);
-      font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-    }
-    footer ul { list-style: none; }
-    footer ul li { margin-bottom: 0.5rem; }
-    footer ul a { text-decoration: none; color: rgba(255,255,255,0.65); font-size: 0.85rem; transition: color 0.2s; }
-    footer ul a:hover { color: var(--sage-light); }
-    .footer-bottom {
-      max-width: 1200px;
-      margin: 2rem auto 0;
-      padding-top: 1.5rem;
-      border-top: 1px solid rgba(255,255,255,0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .footer-bottom p { font-size: 0.78rem; }
-
-    @media (max-width: 768px) {
-      .footer-inner { grid-template-columns: 1fr 1fr; }
-      .nav-links { display: none; }
-      .providers-grid { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 480px) {
-      .footer-inner { grid-template-columns: 1fr; }
-    }
+    .provider-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px; }
+    .provider-card .card-body h4 { font-size: 1.05rem; }
+    .provider-credential { font-size: 0.78rem; color: var(--text-light); margin-top: 2px; }
   </style>
 </head>
 <body>
 
-<!-- NAV -->
-<nav aria-label="Main navigation">
+<div class="banner">
+  🌿 Not sure who to choose? <a href="contact.html">Our team will help match you with the right provider</a>
+</div>
+
+<!-- Nav -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
-    <a class="nav-logo" href="index.html" aria-label="Positive Inner Self Home">
-      <img src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC logo" />
+    <a class="nav-logo" href="index.html">
+      <img src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC" />
     </a>
-    <ul class="nav-links" role="list">
+    <button class="nav-hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="providers.html" class="active">Our Providers</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="fees.html">Fees & Policies</a></li>
+      <li class="nav-dropdown">
+        <a href="providers.html" class="active">Our Providers</a>
+        <ul class="dropdown-menu">
+          <li><a href="providers.html">All Providers</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="providers.html#therapy">Therapy &amp; Counseling</a></li>
+          <li><a href="providers/adrienne-buhacoff.html">Adrienne Buhacoff, LCSW</a></li>
+          <li><a href="providers/jessica-padnick.html">Jessica Padnick, LCSW</a></li>
+          <li><a href="providers/mark-saren.html">Mark Saren, LPC</a></li>
+          <li><a href="providers/becca-saunders.html">Becca Saunders, LCSW</a></li>
+          <li><a href="providers/emilee-harris.html">Emilee Harris, LCSW</a></li>
+          <li><a href="providers/mckenzie-haenke.html">McKenzie Haenke, LCSW</a></li>
+          <li><a href="providers/michelle-ficalora.html">Michelle Ficalora, LCSW</a></li>
+          <li><a href="providers/andrew-schwager.html">Andrew Schwager, LCSW</a></li>
+          <li><a href="providers/katierose-mcmahon.html">Katierose McMahon, QMHP</a></li>
+          <li><a href="providers/adam-bartell.html">Adam Bartell, LCSW</a></li>
+          <li><a href="providers/phil-freneau.html">Phil Freneau, LPC</a></li>
+          <li><a href="providers/yuanchuin-guo-teng.html">Yuanchuin Guo-Teng, LPC</a></li>
+          <li><a href="providers/david-haddow.html">David Haddow, PCA</a></li>
+          <li><a href="providers/chloe-frisella-kunst.html">Chloë Frisella Kunst, PCA</a></li>
+          <li><a href="providers/chris-byers.html">Chris Byers, CSWA</a></li>
+          <li><a href="providers/lea-lawrence.html">Lea Lawrence, PCA</a></li>
+          <li><a href="providers/kayla-beharrie.html">Kayla Beharrie, PCA</a></li>
+          <li><a href="providers/andrew-hauck.html">Andrew Hauck, PCA</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="providers.html#naturopathic">Naturopathic</a></li>
+          <li><a href="providers/vileka-fisher.html">Vileka Fisher, ND</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="providers.html#massage">Massage &amp; Wellness</a></li>
+          <li><a href="providers/erin-shimp.html">Erin Shimp, LMT</a></li>
+          <li><a href="providers/juli-abraham.html">Juli Abraham, LMT</a></li>
+          <li><a href="providers/jego-alfonso.html">Jego Alfonso, LMT</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="services.html">Services</a>
+        <ul class="dropdown-menu">
+          <li><a href="services.html#individual">Individual Counseling</a></li>
+          <li><a href="services.html#group">Group Counseling</a></li>
+          <li><a href="services.html#family">Family Counseling</a></li>
+          <li><a href="services.html#naturopathic">Naturopathic Medicine</a></li>
+          <li><a href="services.html#massage">Massage Therapy</a></li>
+          <li><a href="services.html#biocharger">BioCharger</a></li>
+        </ul>
+      </li>
+      <li><a href="fees.html">Fees &amp; Insurance</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="https://positive-inner-self.clientsecure.me/sign-in" class="nav-cta" target="_blank" rel="noopener">Client Portal</a></li>
+      <li><a href="https://positive-inner-self.clientsecure.me/sign-in" class="nav-cta" target="_blank">Client Portal</a></li>
     </ul>
   </div>
 </nav>
 
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-content">
-    <p class="hero-eyebrow">Positive Inner Self, LLC · Beaverton, Oregon</p>
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Our Team</div>
     <h1>Meet Our <em>Providers</em></h1>
     <p>Naturopathic doctors, licensed therapists, massage therapists, and counselors — each uniquely skilled, each deeply committed to your whole-person wellness.</p>
-    <div class="hero-badge-row" aria-label="Practice highlights">
-      <span class="hero-badge">22+ Dedicated Providers</span>
-      <span class="hero-badge">LGBTQIA+ Affirming</span>
-      <span class="hero-badge">In-Person & Telehealth</span>
-      <span class="hero-badge">Free 15-Min Consultations</span>
+    <div class="page-hero-pills">
+      <span class="page-hero-pill">22+ Dedicated Providers</span>
+      <span class="page-hero-pill">LGBTQIA+ Affirming</span>
+      <span class="page-hero-pill">In-Person &amp; Telehealth</span>
+      <span class="page-hero-pill">Free 15-Min Consultations</span>
     </div>
-  </div>
-</header>
-
-<!-- FILTER BAR -->
-<div class="filter-section" aria-label="Filter providers by specialty">
-  <div class="filter-inner">
-    <span class="filter-label">Filter:</span>
-    <button class="filter-btn active" data-filter="all">All Providers</button>
-    <button class="filter-btn" data-filter="therapy">Therapy & Counseling</button>
-    <button class="filter-btn" data-filter="massage">Massage Therapy</button>
-    <button class="filter-btn" data-filter="naturopathic">Naturopathic</button>
-    <button class="filter-btn" data-filter="supervision">Supervision</button>
-  </div>
-</div>
-
-<!-- PROVIDERS GRID -->
-<main class="providers-section">
-  <p class="section-label">Our Team</p>
-  <h2 class="section-title">Skilled, Compassionate, Here for You</h2>
-  <p class="section-intro">We know finding the right therapist is personal. Browse our team, explore their specialties, and reach out — we offer a free 15-minute consultation so you can see who feels like the right fit.</p>
-
-  <div class="providers-grid" id="providerGrid" role="list">
-
-    <!-- Adrienne Buhacoff -->
-    <article class="provider-card" data-category="therapy supervision" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2023/07/Positive-Inner-Self_Network_Bio_Adrienne-Buhacoff.png" alt="Adrienne Buhacoff, LCSW – Owner & Clinic Director" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-director">Clinic Director</span>
-          <span class="tag tag-therapy">LCSW</span>
-          <span class="tag tag-supervision">Supervisor</span>
-        </div>
-        <h3 class="provider-name">Adrienne Buhacoff</h3>
-        <p class="provider-title">Owner & Clinic Director · Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW #L11095</p>
-        <p class="provider-bio">18+ years working with children, teens, and families navigating trauma, anxiety, depression, foster care, adoption, and attachment. Trauma-informed, holistic, and proudly LGBTQIA+ affirming. Uses CBT, mindfulness, family systems, and The Nurtured Heart Approach.</p>
-        <div class="provider-specialties" aria-label="Specialties">
-          <span class="specialty-chip">Anxiety & Depression</span>
-          <span class="specialty-chip">Trauma & Abuse</span>
-          <span class="specialty-chip">Foster Care & Adoption</span>
-          <span class="specialty-chip">Parent Training</span>
-          <span class="specialty-chip">LGBTQIA+ Affirming</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/adrienne-buhacoff.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Jessica Padnick -->
-    <article class="provider-card" data-category="therapy supervision" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2023/07/Positive-Inner-Self_Network_Bio_Jessica-Padnick.png" alt="Jessica Padnick, LCSW" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-          <span class="tag tag-supervision">Supervisor</span>
-        </div>
-        <h3 class="provider-name">Jessica Padnick</h3>
-        <p class="provider-title">Licensed Clinical Social Worker · CADCI</p>
-        <p class="provider-license">Oregon LCSW #L11516 · California LCSW #124545</p>
-        <p class="provider-bio">Works with adults and couples on anxiety, depression, trauma, and relationship concerns. Uses ACT, CBT, EMDR, and Emotionally-Focused Therapy to build practical strategies alongside exploring root causes.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Anxiety & Depression</span>
-          <span class="specialty-chip">Trauma</span>
-          <span class="specialty-chip">Couples</span>
-          <span class="specialty-chip">EMDR</span>
-          <span class="specialty-chip">Substance Use</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/jessica-padnick.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Mark Saren -->
-    <article class="provider-card" data-category="therapy supervision" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2023/07/Positive-Inner-Self_Network_Bio_Mark-Saren.png" alt="Mark Saren, LPC" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LPC</span>
-          <span class="tag tag-supervision">Supervisor</span>
-        </div>
-        <h3 class="provider-name">Mark Saren</h3>
-        <p class="provider-title">Licensed Professional Counselor</p>
-        <p class="provider-license">Oregon LPC</p>
-        <p class="provider-bio">Specializes in couples, families, adolescents, and adults with an eclectic humanistic approach — EMDR, mindfulness CBT/DBT, art therapy, positive psychology, and polyvagal-informed care. Believes anyone can optimize their health and happiness.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Couples & Families</span>
-          <span class="specialty-chip">Adolescents</span>
-          <span class="specialty-chip">EMDR</span>
-          <span class="specialty-chip">Art Therapy</span>
-          <span class="specialty-chip">Mindfulness</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/mark-saren.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Erin Shimp -->
-    <article class="provider-card" data-category="massage" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2025/07/8K5A0111_websize.jpg" alt="Erin Shimp, LMT – Licensed Massage Therapist" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-massage">LMT</span>
-        </div>
-        <h3 class="provider-name">Erin Shimp</h3>
-        <p class="provider-title">Licensed Massage Therapist · Certified Bowenwork Practitioner</p>
-        <p class="provider-license">Oregon LMT #7686 · 22+ Years Experience</p>
-        <p class="provider-bio">Blends deep-tissue techniques with emotional and cultural sensitivity. Certified in Bowenwork — a gentle modality effective for musculoskeletal pain, migraines, anxiety, and more. Also specializes in auto accident recovery.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Deep Tissue</span>
-          <span class="specialty-chip">Bowenwork</span>
-          <span class="specialty-chip">Auto Accident Recovery</span>
-          <span class="specialty-chip">Pain Relief</span>
-          <span class="specialty-chip">Anxiety</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="https://www.vagaro.com/positiveinnerselfllc1/book-now" target="_blank" rel="noopener">Book Now</a>
-          <a class="btn-profile" href="providers/erin-shimp.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Vileka Fisher -->
-    <article class="provider-card" data-category="naturopathic" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/03/46440345_1594076710736299_30985620650196992_o-Vileka-Fisher.jpg" alt="Vileka Fisher, ND – Naturopathic Doctor" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-naturopathic">ND</span>
-        </div>
-        <h3 class="provider-name">Vileka Fisher</h3>
-        <p class="provider-title">Naturopathic Doctor</p>
-        <p class="provider-license">Naturopathic Medicine</p>
-        <p class="provider-bio">Integrating naturopathic medicine into the holistic wellness team at Positive Inner Self. Supporting whole-body health through evidence-based natural approaches that complement mental health care.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Naturopathic Medicine</span>
-          <span class="specialty-chip">Holistic Wellness</span>
-          <span class="specialty-chip">Whole-Body Health</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/vileka-fisher.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Katierose McMahon -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/02/27344.jpeg" alt="Katierose McMahon, QMHP" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LMSW</span>
-          <span class="tag tag-therapy">QMHP</span>
-        </div>
-        <h3 class="provider-name">Katierose McMahon</h3>
-        <p class="provider-title">Licensed Master Social Worker · Qualified Mental Health Professional</p>
-        <p class="provider-license">Oregon LMSW · QMHP</p>
-        <p class="provider-bio">A compassionate provider dedicated to meeting clients where they are and supporting their mental wellness journey with genuine care and skill.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Mental Health</span>
-          <span class="specialty-chip">Social Work</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/katierose-mcmahon.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Adam Bartell -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/03/Smiling-Ab-2-Adam-Bartell.jpg" alt="Adam Bartell, LCSW" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-        </div>
-        <h3 class="provider-name">Adam Bartell</h3>
-        <p class="provider-title">Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW</p>
-        <p class="provider-bio">Bringing warmth and evidence-based care to individuals navigating life's challenges. Committed to creating a safe, non-judgmental space for healing and growth.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Life Transitions</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/adam-bartell.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- David Haddow -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2025/12/David.H_Headshot.jpg" alt="David Haddow, PCA" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">PCA</span>
-        </div>
-        <h3 class="provider-name">David Haddow</h3>
-        <p class="provider-title">Professional Counselor Associate</p>
-        <p class="provider-license">Oregon PCA</p>
-        <p class="provider-bio">Bringing a mindful, integrative perspective to counseling. Interested in the intersection of contemplative practice and evidence-based therapy for holistic mental wellness.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Mindfulness</span>
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Holistic Approach</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/david-haddow.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Becca Saunders -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2025/11/IMG_0327.jpeg" alt="Becca Saunders, LCSW" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-        </div>
-        <h3 class="provider-name">Becca Saunders</h3>
-        <p class="provider-title">Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW</p>
-        <p class="provider-bio">Dedicated to helping clients find their strengths and build meaningful lives. Offers a warm, collaborative therapeutic relationship grounded in evidence-based practice.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Strengths-Based</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/becca-saunders.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Andrew Schwager -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌿</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-        </div>
-        <h3 class="provider-name">Andrew Schwager</h3>
-        <p class="provider-title">Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW</p>
-        <p class="provider-bio">Providing compassionate, client-centered therapy with a commitment to fostering a safe and supportive therapeutic environment for all individuals.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Mental Health</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/andrew-schwager.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Emilee Harris -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌱</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-        </div>
-        <h3 class="provider-name">Emilee Harris</h3>
-        <p class="provider-title">Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW</p>
-        <p class="provider-bio">Bringing empathy and evidence-based tools to support clients through anxiety, depression, trauma, and life's challenges — individually tailored to each person's unique journey.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Anxiety</span>
-          <span class="specialty-chip">Depression</span>
-          <span class="specialty-chip">Trauma</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/emilee-harris.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- McKenzie Haenke -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">☀️</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-        </div>
-        <h3 class="provider-name">McKenzie Haenke</h3>
-        <p class="provider-title">Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW</p>
-        <p class="provider-bio">Focused on building authentic therapeutic connections that support lasting change. Dedicated to working collaboratively with clients to identify and achieve their wellness goals.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Goal-Oriented</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/mckenzie-haenke.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Michelle Ficalora -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌸</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LCSW</span>
-        </div>
-        <h3 class="provider-name">Michelle Ficalora</h3>
-        <p class="provider-title">Licensed Clinical Social Worker</p>
-        <p class="provider-license">Oregon LCSW</p>
-        <p class="provider-bio">Creating warm, structured therapeutic spaces where clients feel safe to explore, process, and grow. Committed to whole-person care and LGBTQIA+ affirming practice.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">LGBTQIA+ Affirming</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/michelle-ficalora.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Phil Freneau -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🧠</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LPC</span>
-        </div>
-        <h3 class="provider-name">Phil Freneau</h3>
-        <p class="provider-title">Licensed Professional Counselor</p>
-        <p class="provider-license">Oregon LPC</p>
-        <p class="provider-bio">Guiding clients through evidence-based counseling with a focus on building self-awareness, resilience, and meaningful change. Skilled in diverse therapeutic modalities.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Resilience</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/phil-freneau.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Chloë Frisella Kunst -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌼</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">PCA</span>
-        </div>
-        <h3 class="provider-name">Chloë Frisella Kunst</h3>
-        <p class="provider-title">Professional Counselor Associate</p>
-        <p class="provider-license">Supervised by: K Hixson PhD LPC LLC</p>
-        <p class="provider-bio">Providing attentive, strengths-based counseling under clinical supervision. Committed to creating an inclusive and affirming space for all clients to grow and heal.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Strengths-Based</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/chloe-frisella-kunst.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Chris Byers -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌿</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">CSWA</span>
-        </div>
-        <h3 class="provider-name">Chris Byers</h3>
-        <p class="provider-title">Clinical Social Work Associate</p>
-        <p class="provider-license">Supervised by: Adrienne Buhacoff, LCSW</p>
-        <p class="provider-bio">Offering compassionate counseling support under expert clinical supervision. Dedicated to meeting clients with empathy, curiosity, and a genuine commitment to their wellbeing.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Supervised Practice</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/chris-byers.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Lea Lawrence -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌺</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">PCA</span>
-        </div>
-        <h3 class="provider-name">Lea Lawrence</h3>
-        <p class="provider-title">Professional Counselor Associate</p>
-        <p class="provider-license">Supervised by: Mark Saren, LPC</p>
-        <p class="provider-bio">Bringing curiosity and care to every session, working collaboratively under supervision to support clients through a variety of life challenges with genuine compassion.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Collaborative Approach</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/lea-lawrence.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Kayla Beharrie -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">💙</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">PCA</span>
-        </div>
-        <h3 class="provider-name">Kayla Beharrie</h3>
-        <p class="provider-title">Professional Counselor Associate</p>
-        <p class="provider-license">Supervised by: Mark Saren, LPC</p>
-        <p class="provider-bio">Dedicated to providing thoughtful, inclusive counseling support. Working under expert supervision to help clients navigate challenges and build toward meaningful wellness goals.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Inclusive Care</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/kayla-beharrie.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Yuanchuin Guo-Teng -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🌙</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">LPC</span>
-        </div>
-        <h3 class="provider-name">Yuanchuin Guo-Teng</h3>
-        <p class="provider-title">Licensed Professional Counselor</p>
-        <p class="provider-license">Oregon LPC</p>
-        <p class="provider-bio">Providing thoughtful, culturally sensitive counseling. Committed to creating a space where every client feels genuinely seen, respected, and supported in their healing journey.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Culturally Sensitive</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/yuanchuin-guo-teng.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Andrew Hauck -->
-    <article class="provider-card" data-category="therapy" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">🧩</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-therapy">PCA</span>
-        </div>
-        <h3 class="provider-name">Andrew Hauck</h3>
-        <p class="provider-title">Professional Counselor Associate · MS</p>
-        <p class="provider-license">Oregon PCA</p>
-        <p class="provider-bio">Bringing a science-informed, client-centered approach to counseling. Passionate about helping individuals understand themselves more deeply and create positive, lasting change.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Individual Therapy</span>
-          <span class="specialty-chip">Evidence-Based</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Free Consultation</a>
-          <a class="btn-profile" href="providers/andrew-hauck.html" target="_blank" rel="noopener">Full Profile ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Juli Abraham -->
-    <article class="provider-card" data-category="massage" role="listitem">
-      <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/03/Untitled-design.png" alt="Juli Abraham, LMT – Licensed Massage Therapist" loading="lazy" />
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-massage">LMT</span>
-        </div>
-        <h3 class="provider-name">Juli Abraham</h3>
-        <p class="provider-title">Licensed Massage Therapist</p>
-        <p class="provider-license">Oregon LMT</p>
-        <p class="provider-bio">Offering skilled therapeutic massage to support physical wellness and complement mental health care. Dedicated to providing a nurturing, restorative experience tailored to each client's needs.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Therapeutic Massage</span>
-          <span class="specialty-chip">Relaxation</span>
-          <span class="specialty-chip">Wellness Support</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Book Session</a>
-          <a class="btn-profile" href="providers/juli-abraham.html" target="_blank" rel="noopener">Services ↗</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Jego Alfonso -->
-    <article class="provider-card" data-category="massage" role="listitem">
-      <div class="provider-photo-placeholder" aria-hidden="true">💆</div>
-      <div class="provider-body">
-        <div class="provider-tags">
-          <span class="tag tag-massage">LMT</span>
-        </div>
-        <h3 class="provider-name">Jego Alfonso</h3>
-        <p class="provider-title">Licensed Massage Therapist</p>
-        <p class="provider-license">Oregon LMT</p>
-        <p class="provider-bio">Providing skilled therapeutic massage to help clients relax, recover, and restore. Committed to supporting physical wellbeing as a vital part of the holistic wellness journey.</p>
-        <div class="provider-specialties">
-          <span class="specialty-chip">Therapeutic Massage</span>
-          <span class="specialty-chip">Recovery</span>
-          <span class="specialty-chip">Relaxation</span>
-        </div>
-        <div class="provider-card-footer">
-          <a class="btn-consult" href="contact.html">Book Session</a>
-          <a class="btn-profile" href="providers/jego-alfonso.html" target="_blank" rel="noopener">Services ↗</a>
-        </div>
-      </div>
-    </article>
-
-  </div><!-- /providers-grid -->
-</main>
-
-<!-- CTA BANNER -->
-<section class="cta-banner" aria-labelledby="cta-heading">
-  <h2 id="cta-heading">Not sure who to choose? We can help.</h2>
-  <p>Our admin team is happy to match you with the right provider for your needs. Or start with a free 15-minute consultation with anyone on the team.</p>
-  <div class="cta-btn-row">
-    <a class="cta-btn-primary" href="contact.html">Contact Us</a>
-    <a class="cta-btn-secondary" href="careers.html">Join Our Team</a>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <img src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC" />
-      <p>Compassionate mental health and holistic wellness services in Beaverton, Oregon — meeting you where you are, in person or via telehealth.</p>
+<main>
+<section class="section">
+  <div class="container">
+    <p style="margin-bottom:32px;max-width:660px;">We know finding the right provider is personal. Browse our team, explore their specialties, and reach out — we offer a free 15-minute consultation so you can find your right fit.</p>
+
+    <!-- Filter Tabs -->
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-type="all">All Providers</button>
+      <button class="filter-tab" data-type="therapy">Therapy &amp; Counseling</button>
+      <button class="filter-tab" data-type="naturopathic">Naturopathic</button>
+      <button class="filter-tab" data-type="massage">Massage &amp; Wellness</button>
+      <button class="filter-tab" data-type="supervisor">Supervisors</button>
     </div>
-    <div>
-      <h4>Services</h4>
-      <ul>
-        <li><a href="services.html#counseling">Counseling</a></li>
-        <li><a href="services.html#groups">Groups & Workshops</a></li>
-        <li><a href="services.html#supervision">Supervision</a></li>
-        <li><a href="services.html#massage">Massage Therapy</a></li>
-        <li><a href="services.html#acupuncture">Acupuncture</a></li>
-      </ul>
+
+    <!-- ===== THERAPY & COUNSELING ===== -->
+    <div id="therapy" style="margin-bottom:16px;">
+      <div class="eyebrow">Therapy &amp; Counseling</div>
     </div>
-    <div>
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="providers.html">Our Providers</a></li>
-        <li><a href="fees.html">Fees & Policies</a></li>
-        <li><a href="careers.html">Careers</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="https://positive-inner-self.clientsecure.me/sign-in" target="_blank" rel="noopener">Client Portal</a></li>
-      </ul>
+    <div class="provider-grid" style="margin-bottom:56px;">
+
+      <div class="card provider-card" data-type="therapy supervisor">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2023/07/Positive-Inner-Self_Network_Bio_Adrienne-Buhacoff.png" alt="Adrienne Buhacoff LCSW" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span><span class="badge">Director</span><span class="badge">Supervisor</span></div>
+          <h4 style="margin-top:10px;">Adrienne Buhacoff</h4>
+          <div class="provider-credential">Owner &amp; Clinic Director · OR LCSW #L11095</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Trauma</span><span class="tag">Anxiety</span><span class="tag">Foster Care</span><span class="tag">LGBTQIA+</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/adrienne-buhacoff.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy supervisor">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2023/07/Positive-Inner-Self_Network_Bio_Jessica-Padnick.png" alt="Jessica Padnick LCSW" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span><span class="badge">CADCI</span><span class="badge">Supervisor</span></div>
+          <h4 style="margin-top:10px;">Jessica Padnick</h4>
+          <div class="provider-credential">OR LCSW #L11516 · CA LCSW #124545</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">EMDR</span><span class="tag">Trauma</span><span class="tag">Couples</span><span class="tag">Substance Use</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/jessica-padnick.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy supervisor">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2023/07/Positive-Inner-Self_Network_Bio_Mark-Saren.png" alt="Mark Saren LPC" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LPC</span><span class="badge">Supervisor</span></div>
+          <h4 style="margin-top:10px;">Mark Saren</h4>
+          <div class="provider-credential">Licensed Professional Counselor · OR LPC</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Couples</span><span class="tag">EMDR</span><span class="tag">Art Therapy</span><span class="tag">Adolescents</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/mark-saren.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/03/Smiling-Ab-2-Adam-Bartell.jpg" alt="Adam Bartell LCSW" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span></div>
+          <h4 style="margin-top:10px;">Adam Bartell</h4>
+          <div class="provider-credential">Licensed Clinical Social Worker · OR LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Individual Therapy</span><span class="tag">Life Transitions</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/adam-bartell.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2025/11/IMG_0327.jpeg" alt="Becca Saunders LCSW" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span></div>
+          <h4 style="margin-top:10px;">Becca Saunders</h4>
+          <div class="provider-credential">Licensed Clinical Social Worker · OR LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Strengths-Based</span><span class="tag">Individual Therapy</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/becca-saunders.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌱</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span></div>
+          <h4 style="margin-top:10px;">Emilee Harris</h4>
+          <div class="provider-credential">Licensed Clinical Social Worker · OR LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Anxiety</span><span class="tag">Depression</span><span class="tag">Trauma</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/emilee-harris.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">☀️</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span></div>
+          <h4 style="margin-top:10px;">McKenzie Haenke</h4>
+          <div class="provider-credential">Licensed Clinical Social Worker · OR LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Individual Therapy</span><span class="tag">Goal-Oriented</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/mckenzie-haenke.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌸</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span></div>
+          <h4 style="margin-top:10px;">Michelle Ficalora</h4>
+          <div class="provider-credential">Licensed Clinical Social Worker · OR LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">LGBTQIA+ Affirming</span><span class="tag">Individual Therapy</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/michelle-ficalora.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌿</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LCSW</span></div>
+          <h4 style="margin-top:10px;">Andrew Schwager</h4>
+          <div class="provider-credential">Licensed Clinical Social Worker · OR LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Individual Therapy</span><span class="tag">Mental Health</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/andrew-schwager.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/02/27344.jpeg" alt="Katierose McMahon QMHP" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LMSW</span><span class="badge">QMHP</span></div>
+          <h4 style="margin-top:10px;">Katierose McMahon</h4>
+          <div class="provider-credential">Licensed Master Social Worker · QMHP</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Mental Health</span><span class="tag">Social Work</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/katierose-mcmahon.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🧠</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LPC</span></div>
+          <h4 style="margin-top:10px;">Phil Freneau</h4>
+          <div class="provider-credential">Licensed Professional Counselor · OR LPC</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Individual Therapy</span><span class="tag">Resilience</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/phil-freneau.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌙</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LPC</span></div>
+          <h4 style="margin-top:10px;">Yuanchuin Guo-Teng</h4>
+          <div class="provider-credential">Licensed Professional Counselor · OR LPC</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Culturally Sensitive</span><span class="tag">Individual Therapy</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/yuanchuin-guo-teng.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2025/12/David.H_Headshot.jpg" alt="David Haddow PCA" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">PCA</span></div>
+          <h4 style="margin-top:10px;">David Haddow</h4>
+          <div class="provider-credential">Professional Counselor Associate · OR PCA</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Mindfulness</span><span class="tag">Holistic</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/david-haddow.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌼</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">PCA</span></div>
+          <h4 style="margin-top:10px;">Chloë Frisella Kunst</h4>
+          <div class="provider-credential">PCA · Supervised by K. Hixson, PhD LPC</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Strengths-Based</span><span class="tag">Inclusive</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/chloe-frisella-kunst.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌿</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">CSWA</span></div>
+          <h4 style="margin-top:10px;">Chris Byers</h4>
+          <div class="provider-credential">CSWA · Supervised by Adrienne Buhacoff, LCSW</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Individual Therapy</span><span class="tag">Empathy</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/chris-byers.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🌺</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">PCA</span></div>
+          <h4 style="margin-top:10px;">Lea Lawrence</h4>
+          <div class="provider-credential">PCA · Supervised by Mark Saren, LPC</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Collaborative</span><span class="tag">Individual Therapy</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/lea-lawrence.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">💙</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">PCA</span></div>
+          <h4 style="margin-top:10px;">Kayla Beharrie</h4>
+          <div class="provider-credential">PCA · Supervised by Mark Saren, LPC</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Inclusive Care</span><span class="tag">Individual Therapy</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/kayla-beharrie.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="therapy">
+        <div class="card-img-placeholder" style="height:180px;">🧩</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">PCA</span><span class="badge">MS</span></div>
+          <h4 style="margin-top:10px;">Andrew Hauck</h4>
+          <div class="provider-credential">Professional Counselor Associate · OR PCA</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Evidence-Based</span><span class="tag">Science-Informed</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/andrew-hauck.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /therapy grid -->
+
+    <!-- ===== NATUROPATHIC ===== -->
+    <div id="naturopathic" style="margin-bottom:16px;">
+      <div class="eyebrow">Naturopathic Medicine</div>
     </div>
-    <div>
-      <h4>Contact</h4>
-      <ul>
-        <li><a href="tel:5034684791">(503) 468-4791</a></li>
-        <li><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></li>
-        <li><a href="contact.html">6700 SW 105th Ave Suite 215,<br>Beaverton, OR 97008</a></li>
-      </ul>
+    <div class="provider-grid" style="margin-bottom:56px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));">
+
+      <div class="card provider-card" data-type="naturopathic">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/03/46440345_1594076710736299_30985620650196992_o-Vileka-Fisher.jpg" alt="Vileka Fisher ND" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">ND</span></div>
+          <h4 style="margin-top:10px;">Vileka Fisher</h4>
+          <div class="provider-credential">Naturopathic Doctor</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Women's Health</span><span class="tag">OB/GYN</span><span class="tag">Preventive Care</span><span class="tag">IUD Services</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Free Consult</a>
+            <a href="providers/vileka-fisher.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
     </div>
+
+    <!-- ===== MASSAGE & WELLNESS ===== -->
+    <div id="massage" style="margin-bottom:16px;">
+      <div class="eyebrow">Massage Therapy &amp; Wellness</div>
+    </div>
+    <div class="provider-grid" style="margin-bottom:56px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));">
+
+      <div class="card provider-card" data-type="massage">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2025/07/8K5A0111_websize.jpg" alt="Erin Shimp LMT" onerror="this.style.display='none';" style="object-position:top;" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LMT</span><span class="badge">BioCharger</span></div>
+          <h4 style="margin-top:10px;">Erin Shimp</h4>
+          <div class="provider-credential">Licensed Massage Therapist · Bowenwork Certified · OR LMT #7686 · 22+ yrs</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Deep Tissue</span><span class="tag">Bowenwork</span><span class="tag">BioCharger</span><span class="tag">Auto Accident</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="https://www.vagaro.com/positiveinnerselfllc1/book-now" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Book via Vagaro</a>
+            <a href="providers/erin-shimp.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="massage">
+        <img class="provider-photo" src="https://positiveinnerself.com/wp-content/uploads/2026/03/Untitled-design.png" alt="Juli Abraham LMT" onerror="this.style.display='none';" />
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LMT</span></div>
+          <h4 style="margin-top:10px;">Juli Abraham</h4>
+          <div class="provider-credential">Licensed Massage Therapist · OR LMT</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Therapeutic Massage</span><span class="tag">Relaxation</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Book Session</a>
+            <a href="providers/juli-abraham.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card provider-card" data-type="massage">
+        <div class="card-img-placeholder" style="height:180px;">💆</div>
+        <div class="card-body">
+          <div class="provider-tags"><span class="badge">LMT</span></div>
+          <h4 style="margin-top:10px;">Jego Alfonso</h4>
+          <div class="provider-credential">Licensed Massage Therapist · OR LMT</div>
+          <div class="provider-tags" style="margin-top:8px;justify-content:flex-start;">
+            <span class="tag">Therapeutic Massage</span><span class="tag">Recovery</span>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-sm">Book Session</a>
+            <a href="providers/jego-alfonso.html" class="btn btn-outline btn-sm">Profile</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Match CTA -->
+    <div style="background:var(--sage-pale);border-radius:var(--radius-md);padding:40px;text-align:center;border:1px solid var(--border);">
+      <h3>Not sure who to choose?</h3>
+      <p style="margin-top:10px;max-width:500px;margin-left:auto;margin-right:auto;">Our admin team is happy to match you with the right provider for your specific needs. Or start with a free 15-minute consultation with anyone on the team.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:24px;">
+        <a href="contact.html" class="btn btn-primary">Contact Us for a Match</a>
+        <a href="careers.html" class="btn btn-outline">Join Our Team</a>
+      </div>
+    </div>
+
   </div>
-  <div class="footer-bottom">
-    <p>© 2025 Positive Inner Self, LLC. All Rights Reserved.</p>
-    <p>
-      <a href="https://www.facebook.com/FindThePositives/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5);text-decoration:none;margin-right:1rem;" aria-label="Facebook">FB</a>
-      <a href="https://www.instagram.com/positiveinnerselfllc/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5);text-decoration:none;margin-right:1rem;" aria-label="Instagram">IG</a>
-      <a href="https://www.linkedin.com/company/positive-inner-self-llc" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5);text-decoration:none;" aria-label="LinkedIn">LI</a>
-    </p>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC" />
+        <p>Compassionate mental health, naturopathic care, and holistic wellness services — Beaverton, OR.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#individual">Individual Counseling</a></li>
+          <li><a href="services.html#group">Group Counseling</a></li>
+          <li><a href="services.html#family">Family Counseling</a></li>
+          <li><a href="services.html#naturopathic">Naturopathic Medicine</a></li>
+          <li><a href="services.html#massage">Massage Therapy</a></li>
+          <li><a href="services.html#biocharger">BioCharger</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="providers.html">Our Providers</a></li>
+          <li><a href="fees.html">Fees &amp; Insurance</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="https://positive-inner-self.clientsecure.me/sign-in" target="_blank">Client Portal</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:5034684791">(503) 468-4791</a></li>
+          <li><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></li>
+          <li>6700 SW 105th Ave Suite 215,<br/>Beaverton, OR 97008</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="font-size:0.82rem;">© 2025 Positive Inner Self, LLC. All Rights Reserved.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/FindThePositives/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+        <a href="https://www.instagram.com/positiveinnerselfllc/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://twitter.com/positive_inner" target="_blank" rel="noopener" aria-label="X">𝕏</a>
+        <a href="https://www.yelp.com/biz/positive-inner-self-portland" target="_blank" rel="noopener" aria-label="Yelp">Yelp</a>
+        <a href="https://www.linkedin.com/company/positive-inner-self-llc" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
   </div>
 </footer>
 
-<script>
-  // Filter functionality
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const cards = document.querySelectorAll('.provider-card');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const filter = btn.dataset.filter;
-
-      cards.forEach(card => {
-        if (filter === 'all') {
-          card.classList.remove('hidden');
-        } else {
-          const cats = card.dataset.category || '';
-          card.classList.toggle('hidden', !cats.includes(filter));
-        }
-      });
-    });
-  });
-</script>
-
+<script src="main.js"></script>
 </body>
 </html>
