@@ -3,333 +3,612 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Careers – Positive Inner Self, LLC</title>
-  <meta name="description" content="Join the Positive Inner Self, LLC team. We're looking for passionate clinicians and wellness professionals." />
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Careers | Positive Inner Self, LLC</title>
+  <meta
+    name="description"
+    content="Explore career opportunities at Positive Inner Self, LLC. Join our growing team of therapists, wellness providers, and holistic care professionals in Beaverton, OR."
+  />
+  <meta property="og:title" content="Careers | Positive Inner Self, LLC" />
+  <meta
+    property="og:description"
+    content="Join a compassionate, inclusive, and integrative wellness team at Positive Inner Self, LLC."
+  />
+  <meta
+    property="og:image"
+    content="https://positiveinnerself.com/wp-content/uploads/2026/01/20251125_121347-1.jpg"
+  />
+  <meta property="og:url" content="https://positiveinnerself.com/careers" />
+  <link rel="canonical" href="https://positiveinnerself.com/careers" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .careers-intro-photo {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border);
+      background: var(--sage-pale);
+      min-height: 360px;
+    }
+
+    .careers-intro-photo img {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      object-fit: cover;
+    }
+
+    .photo-fallback {
+      min-height: 360px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      color: var(--text-light);
+      text-align: center;
+      padding: 24px;
+      background: linear-gradient(135deg, var(--sage-pale), var(--sage-mid));
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .feature-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 999px;
+      background: var(--sage-pale);
+      color: var(--sage-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.82rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .feature-item span:last-child {
+      color: var(--text-mid);
+      font-size: 0.97rem;
+      line-height: 1.7;
+    }
+
+    .job-list {
+      display: grid;
+      gap: 18px;
+      margin-top: 40px;
+    }
+
+    .job-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px 26px;
+      box-shadow: var(--shadow-sm);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .job-card h3 {
+      margin-bottom: 8px;
+    }
+
+    .job-card p {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    .job-tag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--sage-pale);
+      color: var(--sage-dark);
+      font-size: 0.8rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .application-card {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      padding: 32px;
+    }
+
+    .upload-note {
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-top: 6px;
+    }
+
+    .newsletter-copy h3 {
+      font-size: 1.3rem;
+      margin-bottom: 8px;
+    }
+
+    .newsletter-copy p {
+      font-size: 0.92rem;
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 860px) {
+      .job-card {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<script src="js/nav.js"></script>
+  <!-- Announcement Banner -->
+  <div class="banner">
+    🌿 We’re growing! Explore open roles at Positive Inner Self, LLC. &nbsp;<a href="#application">Apply now →</a>
+  </div>
 
-<!-- PAGE HEADER -->
-<div class="page-header">
-  <span class="section-eyebrow">Join Our Team</span>
-  <h1>Careers</h1>
-  <p>We are transitioning to a full Wellness Center and looking for passionate specialists who share our commitment to compassionate, integrative care.</p>
-</div>
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html" aria-label="Positive Inner Self home">
+        <img src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC logo" />
+      </a>
 
-<!-- INTRO / CULTURE -->
-<section>
-  <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
-    <div>
-      <span class="section-eyebrow">Why Work With Us</span>
-      <h2 class="section-title">A Team That Thrives Together</h2>
-      <p style="color:var(--clr-muted);line-height:1.9;margin-bottom:1.25rem;">
-        Our team members must have a passion for integrative care that incorporates the whole person.
-        We are an inclusive team where all individuals are welcome and supported in their mental health
-        and holistic wellness journey — and we believe the same for every client we serve.
+      <button class="nav-hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+
+        <li class="nav-dropdown">
+          <a href="providers.html">Our Providers</a>
+          <ul class="dropdown-menu">
+            <li><a href="providers.html">All Providers</a></li>
+            <li class="dropdown-divider"></li>
+            <li><a href="providers.html#therapy">Therapy &amp; Counseling</a></li>
+            <li><a href="providers/adrienne-buhacoff.html">Adrienne Buhacoff, LCSW</a></li>
+            <li><a href="providers/jessica-padnick.html">Jessica Padnick, LCSW</a></li>
+            <li><a href="providers/mark-saren.html">Mark Saren, LPC</a></li>
+            <li><a href="providers/becca-saunders.html">Becca Saunders, LCSW</a></li>
+            <li><a href="providers/emilee-harris.html">Emilee Harris, LCSW</a></li>
+            <li><a href="providers/mckenzie-haenke.html">McKenzie Haenke, LCSW</a></li>
+            <li><a href="providers/michelle-ficalora.html">Michelle Ficalora, LCSW</a></li>
+            <li><a href="providers/andrew-schwager.html">Andrew Schwager, LCSW</a></li>
+            <li><a href="providers/katierose-mcmahon.html">Katierose McMahon, QMHP</a></li>
+            <li><a href="providers/adam-bartell.html">Adam Bartell, LCSW</a></li>
+            <li><a href="providers/phil-freneau.html">Phil Freneau, LPC</a></li>
+            <li><a href="providers/yuanchuin-guo-teng.html">Yuanchuin Guo-Teng, LPC</a></li>
+            <li class="dropdown-divider"></li>
+            <li><a href="providers.html#naturopathic">Naturopathic</a></li>
+            <li><a href="providers/vileka-fisher.html">Vileka Fisher, ND</a></li>
+            <li class="dropdown-divider"></li>
+            <li><a href="providers.html#massage">Massage &amp; Wellness</a></li>
+            <li><a href="providers/erin-shimp.html">Erin Shimp, LMT</a></li>
+            <li><a href="providers/juli-abraham.html">Juli Abraham, LMT</a></li>
+            <li><a href="providers/jego-alfonso.html">Jego Alfonso, LMT</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-dropdown">
+          <a href="services.html">Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="services.html#individual">Individual Counseling</a></li>
+            <li><a href="services.html#group">Group Counseling</a></li>
+            <li><a href="services.html#family">Family Counseling</a></li>
+            <li><a href="services.html#naturopathic">Naturopathic Medicine</a></li>
+            <li><a href="services.html#massage">Massage Therapy</a></li>
+            <li><a href="services.html#biocharger">BioCharger</a></li>
+            <li><a href="services.html#groups-workshops">Groups &amp; Workshops</a></li>
+            <li><a href="services.html#supervision">Supervision &amp; Consultation</a></li>
+            <li><a href="services.html#telehealth">Telehealth</a></li>
+          </ul>
+        </li>
+
+        <li><a href="fees.html">Fees &amp; Insurance</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="careers.html" class="active">Careers</a></li>
+        <li>
+          <a
+            href="https://positive-inner-self.clientsecure.me/sign-in"
+            class="nav-cta"
+            target="_blank"
+            rel="noopener"
+          >Client Portal</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Join Our Team</div>
+      <h1>Careers at <em>Positive Inner Self</em></h1>
+      <p>
+        We are growing into a more complete wellness center and looking for compassionate,
+        collaborative professionals who believe in whole-person healing.
       </p>
-      <p style="color:var(--clr-muted);line-height:1.9;margin-bottom:1.5rem;">
-        When the people behind our services thrive, they are better equipped to provide the best care
-        for our community. We invest in our team's professional growth, wellbeing, and success.
-      </p>
-      <div style="display:flex;flex-direction:column;gap:0.75rem;">
-        <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-          <div style="width:20px;height:20px;border-radius:50%;background:var(--clr-sage);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="white"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      <div class="page-hero-pills">
+        <div class="page-hero-pill">Inclusive Workplace</div>
+        <div class="page-hero-pill">In-Person &amp; Telehealth</div>
+        <div class="page-hero-pill">Integrative Care</div>
+        <div class="page-hero-pill">Professional Growth</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <div class="eyebrow">Why Work With Us</div>
+          <h2>A supportive team with a meaningful mission.</h2>
+          <p style="margin-top:16px;">
+            At Positive Inner Self, LLC, we believe healing is strongest when care is compassionate,
+            collaborative, and centered around the whole person. We are building a team that values
+            respect, inclusivity, clinical excellence, and genuine human connection.
+          </p>
+          <p style="margin-top:12px;">
+            Whether your work is rooted in therapy, wellness, holistic care, or integrative medicine,
+            we want our team members to feel empowered, supported, and proud of the care they provide.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Collaborative, supportive team culture</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>LGBTQIA+ affirming and inclusive environment</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Flexible in-person and telehealth opportunities</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Growth-focused, wellness-centered workplace</span>
+            </div>
           </div>
-          <span style="font-size:0.92rem;color:var(--clr-text);">Collaborative, supportive team environment</span>
         </div>
-        <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-          <div style="width:20px;height:20px;border-radius:50%;background:var(--clr-sage);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="white"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+
+        <div class="careers-intro-photo">
+          <img
+            src="images/careers-team.jpg"
+            alt="Positive Inner Self team"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="photo-fallback">
+            <div style="font-size:2.4rem;">🌿</div>
+            <strong>Team photo placeholder</strong>
+            <div>Add your image as <code>images/careers-team.jpg</code></div>
           </div>
-          <span style="font-size:0.92rem;color:var(--clr-text);">LGBTQIA+ affirming and inclusive workplace</span>
         </div>
-        <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-          <div style="width:20px;height:20px;border-radius:50%;background:var(--clr-sage);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="white"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Positions -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="text-center mb-48">
+        <div class="eyebrow">Current Openings</div>
+        <h2>Open Positions</h2>
+        <p style="max-width:620px;margin:12px auto 0;">
+          We are currently seeking professionals across mental health and wellness disciplines.
+          Depending on the role, we welcome both in-person and telehealth applicants.
+        </p>
+      </div>
+
+      <div class="job-list">
+        <div class="job-card">
+          <div>
+            <h3>Associate Clinician</h3>
+            <p>
+              Work under licensed supervision to provide individual and group therapy services.
+              CSWA or equivalent required.
+            </p>
           </div>
-          <span style="font-size:0.92rem;color:var(--clr-text);">Flexible scheduling and telehealth options</span>
+          <div class="job-tag">Full-Time / Part-Time</div>
         </div>
-        <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-          <div style="width:20px;height:20px;border-radius:50%;background:var(--clr-sage);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="white"><path d="M2 5l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+
+        <div class="job-card">
+          <div>
+            <h3>Mental Health Clinician</h3>
+            <p>
+              Provide evidence-based counseling services to individuals, couples, and families.
+              LCSW, LPC, or equivalent required.
+            </p>
           </div>
-          <span style="font-size:0.92rem;color:var(--clr-text);">Professional development and supervision support</span>
+          <div class="job-tag">Full-Time / Part-Time</div>
+        </div>
+
+        <div class="job-card">
+          <div>
+            <h3>Acupuncturist</h3>
+            <p>
+              Provide holistic acupuncture services as part of our integrated wellness team.
+              State licensure required.
+            </p>
+          </div>
+          <div class="job-tag">Part-Time</div>
+        </div>
+
+        <div class="job-card">
+          <div>
+            <h3>Massage Therapist</h3>
+            <p>
+              Join our wellness team to provide therapeutic massage services.
+              LMT and current licensure required.
+            </p>
+          </div>
+          <div class="job-tag">Part-Time</div>
+        </div>
+
+        <div class="job-card">
+          <div>
+            <h3>Chiropractor</h3>
+            <p>
+              Provide chiropractic care as part of our expanding holistic wellness offerings.
+              DC degree and state licensure required.
+            </p>
+          </div>
+          <div class="job-tag">Part-Time</div>
+        </div>
+
+        <div class="job-card">
+          <div>
+            <h3>Psychiatric Nurse Practitioner</h3>
+            <p>
+              Provide psychiatric evaluations and medication management to complement our counseling team.
+              PMHNP-BC required.
+            </p>
+          </div>
+          <div class="job-tag">Part-Time</div>
+        </div>
+
+        <div class="job-card">
+          <div>
+            <h3>Naturopathic Physician</h3>
+            <p>
+              Offer naturopathic medicine services as part of our integrative care model.
+              ND degree and state licensure required.
+            </p>
+          </div>
+          <div class="job-tag">Part-Time</div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Careers photo -->
-    <div style="border-radius:16px;overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/3;background:var(--clr-sage-light);">
-      <img
-        src="images/careers-team.jpg"
-        alt="Our team"
-        style="width:100%;height:100%;object-fit:cover;"
-        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-      />
-      <!-- PHOTO PLACEHOLDER: replace with images/careers-team.jpg -->
-      <div class="photo-placeholder" style="display:none;height:100%;">
-        <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
-        </svg>
-        <span>Replace with:<br/>images/careers-team.jpg</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- OPEN POSITIONS -->
-<section style="background:var(--clr-warm);">
-  <div class="container">
-    <div class="text-center mb-4">
-      <span class="section-eyebrow">Current Openings</span>
-      <h2 class="section-title">Open Positions</h2>
-      <p style="color:var(--clr-muted);max-width:560px;margin:0 auto;">We are currently looking for specialists in the following areas. All positions welcome both in-person and telehealth applicants.</p>
-    </div>
-
-    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:3rem;">
-
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Associate Clinician</h3>
-          <p>Work under licensed supervision to provide individual and group therapy services. CSWA or equivalent required.</p>
-        </div>
-        <span class="job-tag">Full-Time / Part-Time</span>
+  <!-- Application Form -->
+  <section class="section" id="application">
+    <div class="container">
+      <div class="text-center mb-48">
+        <div class="eyebrow">Apply Now</div>
+        <h2>Job Application</h2>
+        <p style="max-width:640px;margin:12px auto 0;">
+          Complete the form below and upload your resume. We will reach out to qualified candidates
+          within 5–7 business days.
+        </p>
       </div>
 
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Mental Health Clinician</h3>
-          <p>Provide evidence-based counseling services to individuals, couples, and families. LCSW, LPC, or equivalent required.</p>
-        </div>
-        <span class="job-tag">Full-Time / Part-Time</span>
-      </div>
-
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Acupuncturist</h3>
-          <p>Provide holistic acupuncture services as part of our integrated wellness team. State licensure required.</p>
-        </div>
-        <span class="job-tag">Part-Time</span>
-      </div>
-
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Massage Therapist</h3>
-          <p>Join our wellness team to provide therapeutic massage services. LMT and current licensure required.</p>
-        </div>
-        <span class="job-tag">Part-Time</span>
-      </div>
-
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Chiropractor</h3>
-          <p>Provide chiropractic care as part of our expanding holistic wellness offerings. DC degree and state licensure required.</p>
-        </div>
-        <span class="job-tag">Part-Time</span>
-      </div>
-
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Psychiatric Nurse Practitioner</h3>
-          <p>Provide psychiatric evaluations and medication management to complement our counseling team. PMHNP-BC required.</p>
-        </div>
-        <span class="job-tag">Part-Time</span>
-      </div>
-
-      <div class="job-card">
-        <div class="job-info">
-          <h3>Naturopathic Physician</h3>
-          <p>Offer naturopathic medicine services as part of our integrative care model. ND degree and state licensure required.</p>
-        </div>
-        <span class="job-tag">Part-Time</span>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- APPLICATION FORM -->
-<section>
-  <div class="container" style="max-width:760px;">
-    <div class="text-center mb-4">
-      <span class="section-eyebrow">Apply Now</span>
-      <h2 class="section-title">Job Application</h2>
-      <p style="color:var(--clr-muted);">Please complete the form below and upload your resume. We will reach out to qualified candidates within 5–7 business days.</p>
-    </div>
-
-    <div class="form-section mt-4">
-      <form class="form-grid" onsubmit="handleApplication(event)">
-
-        <!-- Name -->
-        <div class="form-grid form-grid-2">
+      <div class="application-card">
+        <form class="contact-form" onsubmit="handleApplication(event)">
           <div class="form-group">
-            <label>First Name <span class="req">*</span></label>
-            <input type="text" placeholder="First name" required />
+            <label class="form-label" for="first-name">First Name <span class="req">*</span></label>
+            <input class="form-input" id="first-name" type="text" placeholder="First name" required />
           </div>
+
           <div class="form-group">
-            <label>Middle Name</label>
-            <input type="text" placeholder="Middle name" />
+            <label class="form-label" for="middle-name">Middle Name</label>
+            <input class="form-input" id="middle-name" type="text" placeholder="Middle name" />
           </div>
-        </div>
-        <div class="form-group">
-          <label>Last Name <span class="req">*</span></label>
-          <input type="text" placeholder="Last name" required />
-        </div>
 
-        <!-- Position -->
-        <div class="form-group">
-          <label>Position Applying For <span class="req">*</span></label>
-          <select required>
-            <option value="">— Select a position —</option>
-            <option>Associate Clinician</option>
-            <option>Mental Health Clinician</option>
-            <option>Acupuncturist</option>
-            <option>Massage Therapist</option>
-            <option>Chiropractor</option>
-            <option>Psychiatric Nurse Practitioner</option>
-            <option>Naturopathic Physician</option>
-            <option>Other / General Inquiry</option>
-          </select>
-        </div>
+          <div class="form-group full">
+            <label class="form-label" for="last-name">Last Name <span class="req">*</span></label>
+            <input class="form-input" id="last-name" type="text" placeholder="Last name" required />
+          </div>
 
-        <!-- Address -->
-        <div class="form-group">
-          <label>Current Address <span class="req">*</span></label>
-          <input type="text" placeholder="Street address" required />
-        </div>
-        <div class="form-grid form-grid-2">
+          <div class="form-group full">
+            <label class="form-label" for="position">Position Applying For <span class="req">*</span></label>
+            <select class="form-select" id="position" required>
+              <option value="">Select a position</option>
+              <option>Associate Clinician</option>
+              <option>Mental Health Clinician</option>
+              <option>Acupuncturist</option>
+              <option>Massage Therapist</option>
+              <option>Chiropractor</option>
+              <option>Psychiatric Nurse Practitioner</option>
+              <option>Naturopathic Physician</option>
+              <option>Other / General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="address">Current Address <span class="req">*</span></label>
+            <input class="form-input" id="address" type="text" placeholder="Street address" required />
+          </div>
+
           <div class="form-group">
-            <label>City</label>
-            <input type="text" placeholder="City" />
+            <label class="form-label" for="city">City</label>
+            <input class="form-input" id="city" type="text" placeholder="City" />
           </div>
+
           <div class="form-group">
-            <label>State / Region</label>
-            <input type="text" placeholder="State" />
+            <label class="form-label" for="state">State / Region</label>
+            <input class="form-input" id="state" type="text" placeholder="State / Region" />
           </div>
-        </div>
 
-        <!-- Contact -->
-        <div class="form-grid form-grid-2">
           <div class="form-group">
-            <label>Email Address <span class="req">*</span></label>
-            <input type="email" placeholder="your@email.com" required />
+            <label class="form-label" for="email">Email Address <span class="req">*</span></label>
+            <input class="form-input" id="email" type="email" placeholder="your@email.com" required />
           </div>
+
           <div class="form-group">
-            <label>Phone Number <span class="req">*</span></label>
-            <input type="tel" placeholder="(555) 000-0000" required />
+            <label class="form-label" for="phone">Phone Number <span class="req">*</span></label>
+            <input class="form-input" id="phone" type="tel" placeholder="(555) 000-0000" required />
           </div>
-        </div>
 
-        <!-- Availability -->
-        <div class="form-group">
-          <label>Preferred Schedule</label>
-          <div class="radio-group">
-            <label class="radio-label"><input type="radio" name="schedule" value="full"/> Full-Time</label>
-            <label class="radio-label"><input type="radio" name="schedule" value="part"/> Part-Time</label>
-            <label class="radio-label"><input type="radio" name="schedule" value="either"/> Either</label>
+          <div class="form-group full">
+            <label class="form-label">Preferred Schedule</label>
+            <div class="radio-group">
+              <label><input type="radio" name="schedule" value="full-time" /> Full-Time</label>
+              <label><input type="radio" name="schedule" value="part-time" /> Part-Time</label>
+              <label><input type="radio" name="schedule" value="either" /> Either</label>
+            </div>
           </div>
-        </div>
 
-        <!-- In-person / Telehealth -->
-        <div class="form-group">
-          <label>Service Delivery Preference</label>
-          <div class="radio-group">
-            <label class="radio-label"><input type="radio" name="delivery" value="in-person"/> In-Person</label>
-            <label class="radio-label"><input type="radio" name="delivery" value="telehealth"/> Telehealth</label>
-            <label class="radio-label"><input type="radio" name="delivery" value="both"/> Both</label>
+          <div class="form-group full">
+            <label class="form-label">Service Delivery Preference</label>
+            <div class="radio-group">
+              <label><input type="radio" name="delivery" value="in-person" /> In-Person</label>
+              <label><input type="radio" name="delivery" value="telehealth" /> Telehealth</label>
+              <label><input type="radio" name="delivery" value="both" /> Both</label>
+            </div>
           </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="resume">Upload Your Resume <span class="req">*</span></label>
+            <input class="form-input" id="resume" type="file" accept=".pdf,.doc,.docx,.rtf" required />
+            <div class="upload-note">Accepted: PDF, DOC, DOCX, RTF — Max 8 MB</div>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="cover-letter">Cover Letter / Additional Information</label>
+            <textarea
+              class="form-textarea"
+              id="cover-letter"
+              placeholder="Tell us about yourself, your clinical approach, and why you'd like to join Positive Inner Self, LLC..."
+            ></textarea>
+          </div>
+
+          <div class="form-group full">
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">
+              Submit Application
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-strip">
+    <div class="container">
+      <div class="newsletter-inner">
+        <div class="newsletter-copy">
+          <h3>Stay in the Loop</h3>
+          <p>Subscribe to receive updates when new positions open at Positive Inner Self, LLC.</p>
         </div>
 
-        <!-- Resume -->
-        <div class="form-group">
-          <label>Upload Your Resume <span class="req">*</span></label>
-          <input type="file" accept=".pdf,.doc,.docx,.rtf" required style="padding:0.5rem;font-size:0.85rem;" />
-          <span style="font-size:0.75rem;color:var(--clr-muted);margin-top:0.25rem;">Accepted: PDF, DOC, DOCX, RTF — Max 8 MB</span>
+        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+          <input class="newsletter-input" type="text" placeholder="Your name" aria-label="Your name" />
+          <input class="newsletter-input" type="email" placeholder="Your email address" aria-label="Your email address" required />
+          <button type="submit" class="btn btn-primary">Notify Me</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img
+            class="footer-logo"
+            src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png"
+            alt="Positive Inner Self, LLC"
+          />
+          <p>
+            Compassionate mental health, naturopathic care, and holistic wellness services — meeting
+            you where you are, in Beaverton, OR and via telehealth across Oregon.
+          </p>
         </div>
 
-        <!-- Cover letter / message -->
-        <div class="form-group">
-          <label>Cover Letter / Additional Information</label>
-          <textarea placeholder="Tell us about yourself, your clinical approach, and why you'd like to join Positive Inner Self, LLC..."></textarea>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#individual">Individual Counseling</a></li>
+            <li><a href="services.html#group">Group Counseling</a></li>
+            <li><a href="services.html#family">Family Counseling</a></li>
+            <li><a href="services.html#naturopathic">Naturopathic Medicine</a></li>
+            <li><a href="services.html#massage">Massage Therapy</a></li>
+            <li><a href="services.html#biocharger">BioCharger</a></li>
+            <li><a href="services.html#supervision">Supervision</a></li>
+          </ul>
         </div>
 
-        <!-- Submit -->
-        <div style="margin-top:0.5rem;">
-          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:1rem 2rem;">
-            Submit Application
-          </button>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="providers.html">Meet Our Providers</a></li>
+            <li><a href="fees.html">Fees &amp; Insurance</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://positive-inner-self.clientsecure.me/sign-in" target="_blank">Client Portal</a></li>
+          </ul>
         </div>
 
-      </form>
-    </div>
-  </div>
-</section>
+        <div>
+          <h4>Contact Us</h4>
+          <ul class="footer-links">
+            <li><a href="tel:5034684791">(503) 468-4791</a></li>
+            <li><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></li>
+            <li>6700 SW 105th Ave Suite 215,<br />Beaverton, OR 97008</li>
+            <li style="margin-top:8px;">Mon–Fri: 9am–6pm<br />Sat: By appointment</li>
+          </ul>
+        </div>
+      </div>
 
-<!-- NEWSLETTER -->
-<div class="newsletter-strip">
-  <div class="container">
-    <h2>Stay in the Loop</h2>
-    <p>Subscribe to be notified when new positions open, or receive updates from our growing wellness team.</p>
-    <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-      <input type="text" placeholder="Your name" />
-      <input type="email" placeholder="Your email address" required />
-      <button type="submit" class="btn btn-white">Notify Me</button>
-    </form>
-  </div>
-</div>
+      <div class="footer-bottom">
+        <p style="font-size:0.82rem;">© 2025 Positive Inner Self, LLC. All Rights Reserved.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/FindThePositives/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+          <a href="https://www.instagram.com/positiveinnerselfllc/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          <a href="https://twitter.com/positive_inner" target="_blank" rel="noopener" aria-label="X / Twitter">𝕏</a>
+          <a href="https://www.yelp.com/biz/positive-inner-self-portland" target="_blank" rel="noopener" aria-label="Yelp">Yelp</a>
+          <a href="https://www.linkedin.com/company/positive-inner-self-llc" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <div class="footer-logo-text">Positive Inner Self, LLC</div>
-      <p>Compassionate mental health and holistic wellness services — meeting you where you are.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Services</h4>
-      <ul>
-        <li><a href="services.html#counseling">Counseling</a></li>
-        <li><a href="services.html#groups">Groups &amp; Workshops</a></li>
-        <li><a href="services.html#supervision">Supervision</a></li>
-        <li><a href="services.html#massage">Massage Therapy</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="providers.html">Meet Our Providers</a></li>
-        <li><a href="fees.html">Fees &amp; Policies</a></li>
-        <li><a href="careers.html">Careers</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Contact</h4>
-      <ul>
-        <li><a href="tel:5034613910">(503) 461-3910</a></li>
-        <li><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2025 Positive Inner Self, LLC. All Rights Reserved.</span>
-  </div>
-</footer>
+  <script>
+    function handleApplication(e) {
+      e.preventDefault();
+      alert("Your application has been submitted! We will review it and get back to you within 5–7 business days. Thank you for your interest.");
+      e.target.reset();
+    }
 
-<script>
-function handleApplication(e) {
-  e.preventDefault();
-  alert('Your application has been submitted! We will review it and get back to you within 5–7 business days. Thank you for your interest!');
-  e.target.reset();
-}
-function handleNewsletter(e) {
-  e.preventDefault();
-  alert('Thank you! We\'ll notify you of new openings.');
-  e.target.reset();
-}
-</script>
+    function handleNewsletter(e) {
+      e.preventDefault();
+      alert("Thank you! We'll notify you of new openings.");
+      e.target.reset();
+    }
+  </script>
+
+  <script src="main.js"></script>
 </body>
 </html>
