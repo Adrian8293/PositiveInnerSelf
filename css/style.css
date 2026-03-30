@@ -140,6 +140,13 @@ em { font-style: italic; color: var(--sage-dark); }
   padding: 8px 0;
   z-index: 200;
 }
+/* Providers dropdown scroll fix */
+.providers-dropdown .dropdown-menu {
+  max-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 4px;
+}
 .nav-dropdown:hover .dropdown-menu,
 .nav-dropdown:focus-within .dropdown-menu { display: block; }
 .dropdown-menu a {
