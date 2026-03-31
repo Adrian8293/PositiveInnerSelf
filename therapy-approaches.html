@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Therapy Approaches | Positive Inner Self, LLC — Beaverton, OR</title>
+  <meta name="description" content="Explore the evidence-based therapy approaches used at Positive Inner Self in Beaverton, OR — CBT, DBT, EMDR, ACT, EFT, IFS, TF-CBT, Mindfulness, Somatic, Art Therapy, and more." />
+  <link rel="canonical" href="https://positiveinnerself.com/services/therapy-approaches" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Approach cards */
+    .approach-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .approach-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .approach-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--sage-dark);
+    }
+    .approach-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    .approach-abbr {
+      display: inline-block;
+      background: var(--sage-pale);
+      color: var(--sage-dark);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+    .approach-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .approach-card p {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: var(--text-mid);
+    }
+    .approach-card details summary {
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--sage-dark);
+      margin-top: 12px;
+      list-style: none;
+    }
+    .approach-card details summary::after {
+      content: ' ↓ read more';
+    }
+    .approach-card details[open] summary::after {
+      content: ' ↑ show less';
+    }
+    .approach-card details .extra {
+      margin-top: 10px;
+      font-size: 0.88rem;
+      color: var(--text-mid);
+      line-height: 1.65;
+    }
+    /* Filter pills */
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .filter-pill {
+      padding: 7px 16px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      font-family: var(--font-body);
+      font-size: 0.84rem;
+      font-weight: 500;
+      color: var(--text-mid);
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .filter-pill:hover, .filter-pill.active {
+      background: var(--sage-dark);
+      color: var(--white);
+      border-color: var(--sage-dark);
+    }
+    /* Quick jump sidebar */
+    .sticky-sidebar {
+      position: sticky;
+      top: 88px;
+      max-height: calc(100vh - 110px);
+      overflow-y: auto;
+    }
+    @media (max-width: 900px) {
+      .sticky-sidebar { display: none; }
+      .approach-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="banner">
+  🌿 Not sure which approach is right for you? <a href="contact.html">Book a free 15-min consult</a>
+</div>
+
+<!-- Nav -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC" />
+    </a>
+    <button class="nav-hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="providers.html">Our Providers</a>
+        <ul class="dropdown-menu">
+          <li><a href="providers.html">All Providers</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="providers.html#therapy">Therapy &amp; Counseling</a></li>
+          <li><a href="providers/adrienne-buhacoff.html">Adrienne Buhacoff, LCSW</a></li>
+          <li><a href="providers/jessica-padnick.html">Jessica Padnick, LCSW</a></li>
+          <li><a href="providers/mark-saren.html">Mark Saren, LPC</a></li>
+          <li><a href="providers/becca-saunders.html">Becca Saunders, LCSW</a></li>
+          <li><a href="providers/emilee-harris.html">Emilee Harris, LCSW</a></li>
+          <li><a href="providers/mckenzie-haenke.html">McKenzie Haenke, LCSW</a></li>
+          <li><a href="providers/michelle-ficalora.html">Michelle Ficalora, LCSW</a></li>
+          <li><a href="providers/andrew-schwager.html">Andrew Schwager, LCSW</a></li>
+          <li><a href="providers/katierose-mcmahon.html">Katierose McMahon, QMHP</a></li>
+          <li><a href="providers/adam-bartell.html">Adam Bartell, LCSW</a></li>
+          <li><a href="providers/phil-freneau.html">Phil Freneau, LPC</a></li>
+          <li><a href="providers/yuanchuin-guo-teng.html">Yuanchuin Guo-Teng, LPC</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="providers.html#naturopathic">Naturopathic</a></li>
+          <li><a href="providers/vileka-fisher.html">Vileka Fisher, ND</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="providers.html#massage">Massage &amp; Wellness</a></li>
+          <li><a href="providers/erin-shimp.html">Erin Shimp, LMT</a></li>
+          <li><a href="providers/juli-abraham.html">Juli Abraham, LMT</a></li>
+          <li><a href="providers/jego-alfonso.html">Jego Alfonso, LMT</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="services.html" class="active">Services</a>
+        <ul class="dropdown-menu">
+          <li><a href="services.html#individual">Individual Counseling</a></li>
+          <li><a href="therapy-approaches.html" style="color:var(--sage-dark);font-weight:600;">↳ Therapy Approaches</a></li>
+          <li><a href="services.html#group">Group Counseling</a></li>
+          <li><a href="services.html#family">Family Counseling</a></li>
+          <li><a href="services.html#naturopathic">Naturopathic Medicine</a></li>
+          <li><a href="services.html#massage">Massage Therapy</a></li>
+          <li><a href="services.html#biocharger">BioCharger</a></li>
+          <li><a href="services.html#groups-workshops">Groups &amp; Workshops</a></li>
+          <li><a href="services.html#supervision">Supervision &amp; Consultation</a></li>
+          <li><a href="services.html#telehealth">Telehealth</a></li>
+        </ul>
+      </li>
+      <li><a href="fees.html">Fees &amp; Insurance</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://positive-inner-self.clientsecure.me/sign-in" class="nav-cta" target="_blank">Client Portal</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Under Services → Individual Counseling</div>
+    <h1><em>Therapy</em> Approaches</h1>
+    <p>We recognize the uniqueness of each individual. Our clinicians are trained in a diverse range of evidence-based modalities — each contributing to a comprehensive, personalized approach to mental health and healing.</p>
+    <div class="page-hero-pills">
+      <span class="page-hero-pill">20+ Modalities</span>
+      <span class="page-hero-pill">Evidence-Based</span>
+      <span class="page-hero-pill">Trauma-Informed</span>
+      <span class="page-hero-pill">LGBTQIA+ Affirming</span>
+    </div>
+  </div>
+</section>
+
+<!-- Breadcrumb -->
+<div style="background:var(--white);border-bottom:1px solid var(--border);padding:12px 0;">
+  <div class="container">
+    <p style="font-size:0.84rem;color:var(--text-light);">
+      <a href="index.html" style="color:var(--text-light);">Home</a>
+      &nbsp;›&nbsp;
+      <a href="services.html" style="color:var(--text-light);">Services</a>
+      &nbsp;›&nbsp;
+      <a href="services.html#individual" style="color:var(--text-light);">Individual Counseling</a>
+      &nbsp;›&nbsp;
+      <span style="color:var(--sage-dark);font-weight:500;">Therapy Approaches</span>
+    </p>
+  </div>
+</div>
+
+<main>
+<section class="section">
+  <div class="container">
+
+    <!-- Intro + Filter -->
+    <div style="max-width:760px;margin-bottom:36px;">
+      <div class="eyebrow">Finding Your Fit</div>
+      <h2 style="margin-top:8px;font-size:1.9rem;">Our Therapeutic Modalities</h2>
+      <p style="margin-top:12px;">Every person's path to healing is different. Our clinicians draw from a wide range of therapeutic approaches — selecting, blending, and tailoring methods to match your specific goals, history, and preferences. During your intake session, your provider will discuss which approaches may be the best fit for you.</p>
+      <p style="margin-top:10px;font-size:0.9rem;color:var(--text-light);">Use the filters below to explore by focus area, or browse all approaches.</p>
+    </div>
+
+    <!-- Filter Pills -->
+    <div class="filter-pills" id="approach-filters">
+      <button class="filter-pill active" data-cat="all">All Approaches</button>
+      <button class="filter-pill" data-cat="trauma">Trauma &amp; PTSD</button>
+      <button class="filter-pill" data-cat="anxiety">Anxiety &amp; Depression</button>
+      <button class="filter-pill" data-cat="couples">Couples &amp; Relationships</button>
+      <button class="filter-pill" data-cat="children">Children &amp; Adolescents</button>
+      <button class="filter-pill" data-cat="mindfulness">Mindfulness &amp; Somatic</button>
+      <button class="filter-pill" data-cat="creative">Creative &amp; Expressive</button>
+      <button class="filter-pill" data-cat="substance">Substance Use</button>
+    </div>
+
+    <!-- Approach Grid -->
+    <div class="approach-grid" id="approach-grid">
+
+      <!-- EFT -->
+      <div class="approach-card" data-cats="couples anxiety trauma">
+        <span class="approach-abbr">EFT</span>
+        <h3>Emotionally Focused Therapy</h3>
+        <p>An evidence-based approach to couples therapy rooted in attachment theory, focusing on the emotional bonds between partners. Helps couples navigate conflict, deepen intimacy, and build secure connection.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Dr. Sue Johnson, EFT is one of the most researched and validated approaches to couples therapy. Couples find EFT helpful in navigating conflicts and fostering a sense of safety with their partners.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- IFS -->
+      <div class="approach-card" data-cats="trauma anxiety mindfulness">
+        <span class="approach-abbr">IFS</span>
+        <h3>Internal Family Systems</h3>
+        <p>Explores the complex internal system of the mind, viewing it as composed of various "parts" — each with unique qualities and functions. Helps individuals achieve greater self-awareness, healing, and personal growth.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Dr. Richard C. Schwartz, IFS has gained recognition for its effectiveness with trauma, anxiety, depression, and interpersonal difficulties. Known for its emphasis on empowerment, self-compassion, and inner healing.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Somatic IFS -->
+      <div class="approach-card" data-cats="trauma mindfulness">
+        <span class="approach-abbr">Somatic IFS</span>
+        <h3>Somatic Internal Family Systems</h3>
+        <p>Integrates Somatic Experiencing (SE) principles with Internal Family Systems (IFS) therapy, combining mind-body awareness with internal parts work for holistic healing.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Somatic IFS provides individuals with a holistic framework for exploring and healing across internal and physical dimensions. Particularly useful for trauma or issues involving disruptions in the mind-body connection.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- CBT -->
+      <div class="approach-card" data-cats="anxiety trauma children">
+        <span class="approach-abbr">CBT</span>
+        <h3>Cognitive Behavioral Therapy</h3>
+        <p>Focuses on the connection between thoughts, feelings, and behaviors. Identifies and modifies negative thought patterns to alleviate emotional distress and improve overall well-being.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Aaron T. Beck and further refined by Albert Ellis, CBT is one of the most widely used and evidence-based psychotherapeutic approaches. It's used in individual therapy, group therapy, and self-help formats across diverse populations and cultural contexts.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- TF-CBT -->
+      <div class="approach-card" data-cats="trauma children anxiety">
+        <span class="approach-abbr">TF-CBT</span>
+        <h3>Trauma-Focused Cognitive Behavioral Therapy</h3>
+        <p>A specialized form of CBT designed to address the needs of individuals — especially children and adolescents — who have experienced trauma. Integrates cognitive-behavioral techniques with trauma-specific interventions.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Judith Cohen, Anthony Mannarino, and Esther Deblinger, TF-CBT is effective for individuals who have experienced physical abuse, sexual abuse, neglect, domestic violence, and traumatic grief. It reduces PTSD symptoms and can be adapted for adults as well.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- DBT -->
+      <div class="approach-card" data-cats="anxiety substance mindfulness">
+        <span class="approach-abbr">DBT</span>
+        <h3>Dialectical Behavior Therapy</h3>
+        <p>A comprehensive, evidence-based therapy specializing in emotion regulation and interpersonal effectiveness. Highly effective for borderline personality disorder, substance use, eating disorders, depression, and anxiety.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Dr. Marsha M. Linehan, DBT has been adapted for many populations beyond its original BPD focus. The skills taught in DBT — including mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness — are practical and transformative.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- EMDR -->
+      <div class="approach-card" data-cats="trauma anxiety">
+        <span class="approach-abbr">EMDR</span>
+        <h3>Eye Movement Desensitization and Reprocessing</h3>
+        <p>A psychotherapeutic approach that alleviates distress associated with traumatic memories using bilateral stimulation (eye movements, taps, or tones). Widely recognized as highly effective for PTSD.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Francine Shapiro in the late 1980s, EMDR is extensively researched and recognized as an effective treatment for trauma-related conditions, anxiety disorders, and phobias. It is adaptable to individual needs and integrates well into broader treatment plans.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- ACT -->
+      <div class="approach-card" data-cats="anxiety mindfulness substance">
+        <span class="approach-abbr">ACT</span>
+        <h3>Acceptance and Commitment Therapy</h3>
+        <p>Combines mindfulness strategies with cognitive-behavioral principles to help individuals develop psychological flexibility — being open, adaptive, and present while pursuing values-based goals.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Steven C. Hayes, ACT is applied to anxiety, depression, chronic pain, stress, and substance use. The focus on values and committed action makes ACT especially well-suited for helping individuals build a rich and meaningful life.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- MBSR -->
+      <div class="approach-card" data-cats="mindfulness anxiety">
+        <span class="approach-abbr">MBSR</span>
+        <h3>Mindfulness-Based Stress Reduction</h3>
+        <p>A structured program incorporating mindfulness meditation and awareness practices to help individuals manage stress, enhance well-being, and develop greater self-awareness in the present moment.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Dr. Jon Kabat-Zinn in the late 1970s, MBSR has been shown to be effective in reducing stress, anxiety, and depressive symptoms. Applied in healthcare, education, and workplace environments as a complementary approach to well-being.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- MI -->
+      <div class="approach-card" data-cats="substance anxiety">
+        <span class="approach-abbr">MI</span>
+        <h3>Motivational Interviewing</h3>
+        <p>A client-centered, evidence-based approach designed to elicit and strengthen an individual's own motivation for change. Particularly effective for behaviors resistant to change — substance use, lifestyle, health habits.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by William R. Miller and Stephen Rollnick in the early 1980s, MI is widely used in healthcare, addiction treatment, mental health, and lifestyle coaching. It respects individual autonomy and seeks to strengthen the person's own motivations for positive change.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- CPS -->
+      <div class="approach-card" data-cats="children couples">
+        <span class="approach-abbr">CPS</span>
+        <h3>Collaborative Problem Solving</h3>
+        <p>An approach for individuals — especially children and adolescents — who struggle with challenging behaviors and social-emotional difficulties. Emphasizes collaboration and empathy over traditional behavioral interventions.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Dr. Ross W. Greene (Collaborative &amp; Proactive Solutions model), CPS has been applied successfully in schools, families, and mental health settings. The collaborative and empathetic nature contributes to positive outcomes and improved relationships.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- NHA -->
+      <div class="approach-card" data-cats="children">
+        <span class="approach-abbr">NHA</span>
+        <h3>The Nurtured Heart Approach</h3>
+        <p>Designed to help children — particularly those with challenging behaviors — develop inner wealth and thrive by fostering a positive and empowering environment. Widely used in schools, homes, and therapeutic settings.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Howard Glasser and Melissa Block, NHA is empowering for both children and adults. It focuses on building positive relationships and creating a foundation for success, making it effective for parent training and family therapy.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- SFBT -->
+      <div class="approach-card" data-cats="anxiety couples children">
+        <span class="approach-abbr">SFBT</span>
+        <h3>Solution-Focused Brief Therapy</h3>
+        <p>A goal-oriented, strengths-based approach that focuses on helping individuals identify and work toward solutions rather than dwelling on problems. Known for its brief and pragmatic nature.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Steve de Shazer and Insoo Kim Berg in the 1980s, SFBT is used in mental health counseling, family therapy, school counseling, and organizational consulting. Effective for depression, anxiety, relationship problems, and behavioral challenges.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Expressive Art Therapy -->
+      <div class="approach-card" data-cats="creative trauma children">
+        <span class="approach-abbr">EAT</span>
+        <h3>Expressive Art Therapy</h3>
+        <p>Integrates creative arts — visual art, music, dance, drama, and writing — to promote emotional expression, self-discovery, and psychological healing. Recognizes the arts as a powerful means of communication and self-exploration.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Used in mental health treatment, trauma recovery, grief counseling, and personal growth. Our clinicians currently offer: Art Therapy, Dance Therapy (Hakomi), Sandtray, Narrative, and Play Therapy.</p>
+            <ul style="padding-left:18px;margin-top:8px;">
+              <li>🎨 Art Therapy</li>
+              <li>💃 Dance Therapy (Hakomi)</li>
+              <li>🏖️ Sandtray</li>
+              <li>📖 Narrative Therapy</li>
+              <li>🧸 Play Therapy</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+
+      <!-- Hakomi -->
+      <div class="approach-card" data-cats="mindfulness trauma creative">
+        <span class="approach-abbr">Hakomi</span>
+        <h3>Hakomi</h3>
+        <p>A somatic psychotherapy method integrating Eastern philosophies, mindfulness, and body-centered techniques to facilitate personal growth, healing, and self-discovery. Grounded in the idea that the body holds valuable emotional and psychological information.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Ron Kurtz in the 1970s, Hakomi is particularly effective for trauma, self-esteem, relationship dynamics, and personal development. Therapists use both verbal and experiential techniques to help clients access and integrate unconscious material.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Exposure Therapy -->
+      <div class="approach-card" data-cats="anxiety trauma">
+        <span class="approach-abbr">Exposure</span>
+        <h3>Exposure Therapy</h3>
+        <p>A therapeutic approach for anxiety disorders, phobias, and PTSD. Gradually and systematically exposes individuals to feared stimuli in a safe environment, reducing the anxiety response over time through habituation.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Based on the principles of classical conditioning, exposure therapy is considered a highly effective and evidence-based approach for various anxiety-related disorders. It promotes habituation and long-term relief from fear and avoidance.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Psychodynamic -->
+      <div class="approach-card" data-cats="anxiety trauma">
+        <span class="approach-abbr">Psychodynamic</span>
+        <h3>Psychodynamic Therapy</h3>
+        <p>Explores the unconscious mind and its influence on thoughts, feelings, and behaviors. Aims to uncover unresolved conflicts and early-life experiences that may be impacting current life and relationships.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Rooted in the psychoanalytic tradition, psychodynamic therapy has evolved to integrate techniques from other modalities. It is employed in individual and group therapy, and its principles are incorporated into many contemporary therapeutic approaches.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Gestalt -->
+      <div class="approach-card" data-cats="mindfulness anxiety">
+        <span class="approach-abbr">Gestalt</span>
+        <h3>Gestalt Therapy</h3>
+        <p>Emphasizes the importance of the present moment, awareness, and the integration of mind and body. An experiential, process-oriented approach that values the client's subjective experience and promotes self-awareness and personal responsibility.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Fritz Perls, Laura Perls, and Paul Goodman in the 1940s–50s, Gestalt therapy is applied to anxiety, depression, relationship difficulties, and personal growth. The goal is to help individuals live more fully in the present and make choices aligned with their authentic selves.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Humanistic -->
+      <div class="approach-card" data-cats="anxiety couples">
+        <span class="approach-abbr">Humanistic</span>
+        <h3>Humanistic Therapy</h3>
+        <p>Emphasizes the importance of the individual's subjective experience, personal growth, and self-actualization. Treats each person as fundamentally capable of growth when provided with the right environment.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Associated with the works of Carl Rogers and Abraham Maslow, humanistic therapy is used to address self-esteem, identity, personal development, relationships, and existential questions. It is considered particularly beneficial for individuals seeking personal growth and greater fulfillment.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Rogerian / Person-Centered -->
+      <div class="approach-card" data-cats="anxiety couples mindfulness">
+        <span class="approach-abbr">PCT</span>
+        <h3>Rogerian / Person-Centered Therapy</h3>
+        <p>A foundational humanistic approach based on the belief that individuals have an inherent capacity for personal growth. Centers on creating a supportive, empathetic, and non-judgmental therapeutic environment.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Developed by Carl Rogers, person-centered therapy has influenced the field of psychotherapy significantly. It is used in individual counseling, couples therapy, group therapy, and crisis intervention. The client-centered and non-directive nature makes it adaptable to diverse client needs.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Skills Training -->
+      <div class="approach-card" data-cats="anxiety substance children">
+        <span class="approach-abbr">Skills</span>
+        <h3>Skills Training</h3>
+        <p>Teaches individuals specific practical, emotional, and cognitive skills to cope with and navigate life challenges. Often integrated within CBT, DBT, and other evidence-based modalities.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Skills training can be tailored to the individual's specific needs and goals — delivered in individual therapy, group settings, or through self-help resources. Common areas include emotion regulation, distress tolerance, communication, and problem-solving.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Psychoeducation -->
+      <div class="approach-card" data-cats="anxiety children substance">
+        <span class="approach-abbr">Psychoeducation</span>
+        <h3>Psychoeducation</h3>
+        <p>Provides individuals and families with education about mental health conditions, treatment options, and coping strategies. Increases awareness and empowers clients to make informed decisions about their care.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Delivered through individual counseling, group workshops, educational materials, and community outreach. Plays a crucial role in promoting mental health literacy, reducing stigma, and fostering a more informed and supportive community.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Parenting Education -->
+      <div class="approach-card" data-cats="children couples">
+        <span class="approach-abbr">Parenting Ed</span>
+        <h3>Parenting Education</h3>
+        <p>Provides parents with information, support, and resources to enhance their knowledge and confidence in raising children. Addresses child development, behavior management, communication, and positive parenting techniques.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Delivered through workshops, seminars, support groups, and community-based initiatives. By enhancing parenting knowledge and skills, these programs contribute to creating nurturing and supportive family environments. Often combined with family therapy and the Nurtured Heart Approach.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Substance Use / ADAT -->
+      <div class="approach-card" data-cats="substance">
+        <span class="approach-abbr">ADAT</span>
+        <h3>Alcohol &amp; Drug Abuse Therapy</h3>
+        <p>Specialized counseling aimed at helping individuals overcome issues related to the misuse of alcohol or drugs. Provided by providers certified in substance use treatment, encompassing a range of therapeutic approaches.</p>
+        <details>
+          <summary></summary>
+          <div class="extra">
+            <p>Effective substance use therapy is tailored to the individual's specific needs and may involve a combination of MI, CBT, DBT, and skills training. The therapeutic process is collaborative, empowering individuals to make positive changes and supporting their journey toward lasting recovery.</p>
+          </div>
+        </details>
+      </div>
+
+    </div><!-- /approach-grid -->
+
+    <!-- CTA -->
+    <div style="background:var(--sage-pale);border-radius:var(--radius-md);padding:44px;text-align:center;margin-top:64px;border:1px solid var(--border);">
+      <div class="eyebrow">Ready to Take the First Step?</div>
+      <h2 style="margin-top:8px;font-size:1.9rem;">Find the approach that's right for you.</h2>
+      <p style="max-width:540px;margin:14px auto 0;">Not sure which modality fits your needs? That's what we're here for. During your free 15-minute consultation or intake session, your provider will work with you to determine the best therapeutic approach for your goals.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px;">
+        <a href="contact.html" class="btn btn-primary btn-lg">Book a Free Consult</a>
+        <a href="providers.html" class="btn btn-outline btn-lg">Meet Our Providers</a>
+      </div>
+      <p style="margin-top:20px;font-size:0.88rem;color:var(--text-light);">Or call us at <a href="tel:5034684791">(503) 468-4791</a> — we're happy to help you find the right fit.</p>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<!-- Newsletter -->
+<section class="newsletter-strip">
+  <div class="container">
+    <div class="newsletter-inner">
+      <div>
+        <h3 style="font-size:1.3rem;">Join Our Newsletter</h3>
+        <p style="font-size:0.92rem;">Mental health tips and wellness advice — straight to your inbox.</p>
+      </div>
+      <div class="newsletter-form">
+        <input class="newsletter-input" type="email" placeholder="Your email address" aria-label="Email address" />
+        <button class="btn btn-primary">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="https://positiveinnerself.com/wp-content/uploads/2025/01/Positive-Inner-Self-Logo.png" alt="Positive Inner Self, LLC" />
+        <p>Compassionate mental health, naturopathic care, and holistic wellness — Beaverton, OR and via telehealth across Oregon.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#individual">Individual Counseling</a></li>
+          <li><a href="therapy-approaches.html">Therapy Approaches</a></li>
+          <li><a href="services.html#group">Group Counseling</a></li>
+          <li><a href="services.html#family">Family Counseling</a></li>
+          <li><a href="services.html#naturopathic">Naturopathic Medicine</a></li>
+          <li><a href="services.html#massage">Massage Therapy</a></li>
+          <li><a href="services.html#biocharger">BioCharger</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="providers.html">Our Providers</a></li>
+          <li><a href="fees.html">Fees &amp; Insurance</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="https://positive-inner-self.clientsecure.me/sign-in" target="_blank">Client Portal</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:5034684791">(503) 468-4791</a></li>
+          <li><a href="mailto:intake@positiveinnerself.com">intake@positiveinnerself.com</a></li>
+          <li>6700 SW 105th Ave Suite 215,<br/>Beaverton, OR 97008</li>
+          <li style="margin-top:8px;">Mon–Fri: 9am–6pm<br/>Sat: By appointment</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="font-size:0.82rem;">© 2025 Positive Inner Self, LLC. All Rights Reserved.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/FindThePositives/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+        <a href="https://www.instagram.com/positiveinnerselfllc/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://twitter.com/positive_inner" target="_blank" rel="noopener" aria-label="X">𝕏</a>
+        <a href="https://www.yelp.com/biz/positive-inner-self-portland" target="_blank" rel="noopener" aria-label="Yelp">Yelp</a>
+        <a href="https://www.linkedin.com/company/positive-inner-self-llc" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+// Approach filter logic
+document.querySelectorAll('#approach-filters .filter-pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    document.querySelectorAll('#approach-filters .filter-pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    const cat = pill.dataset.cat;
+    document.querySelectorAll('#approach-grid .approach-card').forEach(card => {
+      if (cat === 'all' || (card.dataset.cats && card.dataset.cats.includes(cat))) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
